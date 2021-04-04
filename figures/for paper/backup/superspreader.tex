@@ -1,0 +1,182 @@
+%\documentclass[twocolumn,journal]{IEEEtran}
+\documentclass[onecolumn,journal]{IEEEtran}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+%\usepackage[english]{babel}
+\usepackage{supertabular}
+\usepackage{longtable}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{bbm}
+%\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{breqn}
+\usepackage{fixltx2e}
+\usepackage{capt-of}
+%\usepackage{mdframed}
+\setcounter{MaxMatrixCols}{10}
+\usepackage{tikz}
+\usetikzlibrary{matrix}
+\usepackage{endnotes}
+\usepackage{soul}
+\usepackage{marginnote}
+%\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+%\newtheorem{remark}{Remark}
+%\newtheorem{error}{\color{Red} Error}
+\newtheorem{corollary}{Corollary}
+\newtheorem{proposition}{Proposition}
+\newtheorem{definition}{Definition}
+\newcommand{\mathsym}[1]{}
+\newcommand{\unicode}[1]{}
+\newcommand{\dsum} {\displaystyle\sum}
+\hyphenation{op-tical net-works semi-conduc-tor}
+\usepackage{pdfpages}
+\usepackage{enumitem}
+\usepackage{multicol}
+
+\headsep = 5pt
+\textheight = 730pt
+%\headsep = 8pt %25pt
+%\textheight = 720pt %674pt
+%\usepackage{geometry}
+
+\bibliographystyle{unsrt}
+
+\usepackage{float}
+
+ \usepackage{xcolor}
+ 
+\usepackage[framemethod=TikZ]{mdframed}
+%%%%%%%FRAME%%%%%%%%%%%
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage{framed}
+    % \BeforeBeginEnvironment{mdframed}{\begin{minipage}{\linewidth}}
+     %\AfterEndEnvironment{mdframed}{\end{minipage}\par}
+
+
+%	%\mdfsetup{%
+%	%skipabove=20pt,
+%	nobreak=true,
+%	   middlelinecolor=black,
+%	   middlelinewidth=1pt,
+%	   backgroundcolor=purple!10,
+%	   roundcorner=1pt}
+
+\mdfsetup{%
+	outerlinewidth=1,skipabove=20pt,backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{result}{Result}
+
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{theorem}{Theorem}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=gray!10, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{remark}{Remark}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=pink!30, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{quaestio}{Quaestio}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=5pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{background}{Background}
+
+%TRYING TO INCLUDE Ppls IN TOC
+\usepackage{hyperref}
+
+
+\begin{document}
+\title{\color{Brown} Thoughts on Superspreader events. \\
+\vspace{-0.35ex}}
+\author{Chen Shen and Yaneer Bar-Yam \\ New England Complex Systems Institute \\
+ \today 
+  \vspace{-10ex} \\ 
+
+   
+\bigskip
+\bigskip
+
+\textbf{}
+ }
+    
+\maketitle
+
+
+\flushbottom % Makes all text pages the same height
+
+%\maketitle % Print the title and abstract box
+
+%\tableofcontents % Print the contents section
+
+\thispagestyle{empty} % Removes page numbering from the first page
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+%\section*{Introduction} % The \section*{} command stops section numbering
+
+%\addcontentsline{toc}{section}{\hspace*{-\tocsep}Introduction} % Adds this section to the table of contents with negative horizontal space equal to the indent for the numbered sections
+
+%\tableofcontents 
+%\section{ Introduction}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+
+
+
+\begin{multicols}{2}
+
+One of the mysteries about the Coronavirus outbreaks is why we don't have more of them. The answer is rooted in the fat-tailed distribution of contagion events. There are specific events that trigger outbreaks, superspreader events. Without such events the few individuals that are ``typically"  infected by any individual apparently don't lead to an outbreak. Most sick individuals don't infect anyone. If there are a few people that are infected, they infect no more than a few people, and the contagion dies out.\footnote{In Shenzhen, among 2,842 identified close contacts of COVID-19 cases, about 2.8\% were found to be infected, less than one in 30 \cite{1}.}  Unless there is a particular event, a superspreader event at a particular place or time, or a particular individual, that leads to many cases. Once there are many cases, the more typical way it spreads is strong enough to lead to an explosion. [This also suggests that contagion may be nonlinear due to a threshold of exposure as multiple infected individuals in the environment of an individual lead to a higher transmission rate.]
+
+Each of the Coronavirus outbreaks we know of in China, South Korea, and Italy (there isn't enough information about Iran to know) had superspreader events that triggered the larger outbreak. This happened at the exotic food market in China (whether or not the food there was the source of the virus) \cite{1}, at a cult religious service in South Korea\cite{2}, and with a Italian runner who was sent home by doctors despite symptoms\cite{3}. We also know of potential superspreader events in Hong Kong\cite{4} and Germany\cite{5}, and do not know if they will lead to outbreaks.
+
+In this paper we would like to consider how to characterize pandemic superspreaders as an aide toward stoping them from happening. Here are some thoughts.
+
+\indent Superspreader events are linked to: (A) individual qualities, (B) social contact events or venues, (C) individual and system behavior relative to symptoms.
+
+\textbf{Pandemic Superspreader Type A} = Socialites: (1) people who go from meeting to meeting,
+			and/or (2) enjoy groups, the larger the better. 
+			
+These are Individual qualities: Highly connected individuals, hubs in the social network, sometimes called connectors \cite{gladwell}. Notes:
+\begin{itemize}
+		\item It is different if they are virtual (phone, email, internet, etc) connectors or in-person ones. 
+		\item It may be different if they know the people personally or just interact with them casually. Being attracted to social contexts is not the same as actually knowing people. 
+\end{itemize}
+
+\textbf{Pandemic Superspreader Type B} = Service venues with workplace rules/values or individuals that don't rapidly self-isolate.
+
+These are qualities of contexts: venues and events (markets, retail, hospitality, etc). Notes:
+\begin{itemize}
+		\item Those who work in high-contact professions, in markets and social service organizations, have many encounters with people, generally serially.
+		\item Once such a service provider has an infection the superspreader event is almost guaranteed, unless they rapidly self-isolate / don't go to work based upon symptoms. 
+\end{itemize}
+
+\textbf{Pandemic Superspreader Type C} = Is turned away from, or doesn't self-care, (1) is turned away from care (social quality), (2) ignores symptoms, (3) avoids medical care, and/or (4) doesn't self isolate when feeling ill.
+
+These are qualities of medical systems or authorities who do not provide, or individuals who ignore, treatment or diagnosis: 
+
+\end{multicols}
+
+\begin{thebibliography}{20}
+
+
+\bibitem{1} Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19) \url{https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf} 
+\bibitem{2} Italian Coronavirus Superspreader \url{https://www.dailymail.co.uk/health/article-8050705/Trail-Italian-coronavirus-super-spreader-Marathon-runner-38-heart-crisis-Europe.html}
+\bibitem{3} South Korean Superspreader \url{}
+\bibitem{4} Hong Kong Superspreader? \url{}
+\bibitem{5} German Superspreader? \url{}
+\bibitem{gladwell} Gladwell, Malcolm. The tipping point: How little things can make a big difference. Little, Brown, 2006.
+\end{thebibliography}
+
+		
+
+	
+% \bibliography{MyCollection.bib}
+\bibliography{references.bib}
+
+\end{document}

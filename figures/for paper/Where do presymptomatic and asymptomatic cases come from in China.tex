@@ -1,0 +1,198 @@
+%\documentclass[twocolumn,journal]{IEEEtran}
+\documentclass[onecolumn,journal]{IEEEtran}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+%\usepackage[english]{babel}
+\usepackage{supertabular}
+\usepackage{longtable}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{bbm}
+%\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{breqn}
+\usepackage{fixltx2e}
+\usepackage{capt-of}
+%\usepackage{mdframed}
+\setcounter{MaxMatrixCols}{10}
+\usepackage{tikz}
+\usetikzlibrary{matrix}
+\usepackage{endnotes}
+\usepackage{soul}
+\usepackage{marginnote}
+%\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+%\newtheorem{remark}{Remark}
+%\newtheorem{error}{\color{Red} Error}
+\newtheorem{corollary}{Corollary}
+\newtheorem{proposition}{Proposition}
+\newtheorem{definition}{Definition}
+\newcommand{\mathsym}[1]{}
+\newcommand{\unicode}[1]{}
+\newcommand{\dsum} {\displaystyle\sum}
+\hyphenation{op-tical net-works semi-conduc-tor}
+\usepackage{pdfpages}
+\usepackage{enumitem}
+\usepackage{multicol}
+
+\headsep = 5pt
+\textheight = 730pt
+%\headsep = 8pt %25pt
+%\textheight = 720pt %674pt
+%\usepackage{geometry}
+
+\bibliographystyle{unsrt}
+
+\usepackage{float}
+
+\usepackage{xcolor}
+ 
+\usepackage[framemethod=TikZ]{mdframed}
+%%%%%%%FRAME%%%%%%%%%%%
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage{framed}
+    % \BeforeBeginEnvironment{mdframed}{\begin{minipage}{\linewidth}}
+     %\AfterEndEnvironment{mdframed}{\end{minipage}\par}
+% \usepackage[document]{ragged2e}
+
+%	%\mdfsetup{%
+%	%skipabove=20pt,
+%	nobreak=true,
+%	   middlelinecolor=black,
+%	   middlelinewidth=1pt,
+%	   backgroundcolor=purple!10,
+%	   roundcorner=1pt}
+
+\mdfsetup{%
+	outerlinewidth=1,skipabove=20pt,backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{result}{Result}
+
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{theorem}{Theorem}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=gray!10, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{remark}{Remark}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=pink!30, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{quaestio}{Quaestio}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=5pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{background}{Background}
+
+%TRYING TO INCLUDE Ppls IN TOC
+\usepackage{hyperref}
+
+
+\begin{document}
+\title{\color{Brown} Where do pre-symptomatic and asymptomatic cases come from in China? \\
+\vspace{-0.35ex}}
+\author{Chen Shen and Yaneer Bar-Yam \\ New England Complex Systems Institute \\
+ \today 
+  \vspace{-14ex} \\ 
+
+   
+\bigskip
+\bigskip
+
+\textbf{}
+ }
+    
+\maketitle
+
+
+\flushbottom % Makes all text pages the same height
+
+%\maketitle % Print the title and abstract box
+
+%\tableofcontents % Print the contents section
+
+\thispagestyle{empty} % Removes page numbering from the first page
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+%\section*{Introduction} % The \section*{} command stops section numbering
+
+%\addcontentsline{toc}{section}{\hspace*{-\tocsep}Introduction} % Adds this section to the table of contents with negative horizontal space equal to the indent for the numbered sections
+
+%\tableofcontents 
+%\section{ Introduction}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+
+\begin{multicols}{2}
+\textbf{Comment on ``Covid-19: four fifths of cases are asymptomatic, China figures indicate''}
+
+Michael Day~\cite{day} claims there are 78\% asymptomatic cases in China based on the daily report of China National Health Commission on COVID-19 cases. The report is based on an incorrect reading of Chinese reports~\cite{data}, and both its scientific and other inferences are incorrect. Given the importance of these inferences, the article should be retracted immediately. 
+
+In particular,  the article incorrectly assumes the report from China about 36 symptomatic and 130 asymptomatic are both from the same population. It also assumes that the asymptomatic cases are not pre-symptomatic, i.e. they may develop symptoms later, typically within a few days. Both these assumptions are incorrect and lead to an incorrect understanding and conclusions. 
+
+For clarity, we report below the details of the Chinese report for March 31 through April 2. The newly reported results by China require careful interpretation as we learn what each category represents.
+
+For background, there are 3 distinct populations that the Chinese reports refer to, \textbf{A: International arrivals, B: Quarantined close contacts, C: The general public.} Understanding that there are more than one populations is essential to understanding the Chinese reports.
+
+%\centering
+
+\par   
+
+\section*{Chinese reports}
+
+\bigskip
+\textbf{March 31 (reported one day later on April 1, this is the report Day\cite{day} cites):}
+\begin{itemize}
+    \item 36 new symptomatic, 35 from A
+    \item 130 new asymptomatic from A, B, and C
+\end{itemize}
+\textbf{Comment: If these were from the same population, then the percentage of asymptomatic would be 130/(130+36)=78\%. However this is not the case, as most of the symptomatic individuals are from population A and most of the asymptomatic are from population B and C (see subsequent days).}
+
+\bigskip
+\textbf{April 1:}
+\begin{itemize}
+    \item 35 new symptomatic, all from A
+    \item 55 new asymptomatic, 17 from A
+    \item 9 asymptomatic cases convert on April 1 to symptomatic, all from A
+    \item 226 cumulative asymptomatic from A
+\end{itemize}
+\textbf{Comment: We see that within population A, there are 35 new symptomatic and 17 new asymptomatic for this day. However, the statement that there are conversions shows they may be pre-symptomatic rather than asymptomatic cases}
+
+\bigskip
+\textbf{April 2:}
+\begin{itemize}
+    \item 31 new symptomatic, 29 from A
+    \item 60 new asymptomatic, 7 from A
+    \item 7 asymptomatic cases convert on April 2 to symptomatic, all from A
+    \item 221 cumulative asymptomatic from A
+\end{itemize}
+\textbf{Comment: As a result, within A, 29 are new symptomatic, 7 are new asymptomatic}
+\newline
+
+To understand the number of cumulative asymptomatic cases from A on April 2 requires additional information from the Chinese report. The report states that 101 asymptomatic cases, 5 of which from A, are released from medical observation on the day of the report, after a 2-week quarantine and consecutive negative test results. On April 2, asymptomatic cases from A start at 226, there are added 7 new imported asymptomatic cases, subtracted 7 converted to symptomatic, and subtracted 5 released, leading to the 221 cumulative asymptomatic from A.
+
+We note that the asymptomatic number from B and C is much larger than that from A (849:226 as of April 1), but the 16 conversions are all from A. This suggests that many of the current reported asymptomatic cases from international arrival are pre-symptomatic. The high ratio between asymptomatic cases from B and C compared to A makes sense due to the presence of long term asymptomatic cases, that continue to test positively, remaining as a residual from the large number of cases in China.
+
+
+\end{multicols}
+
+
+\begin{thebibliography}{20}
+\bibitem{day} BMJ 2020;369:m1375
+\bibitem{data} http://www.nhc.gov.cn/xcs/yqtb/202004/28668f987f3a4e58b1a2a75db60d8cf2.shtml
+\newline
+http://www.nhc.gov.cn/xcs/yqtb/202004/be27dc3c4a9544b081e2233537e762c3.shtml
+\newline
+http://www.nhc.gov.cn/xcs/yqtb/202004/4786774c1fd84e16b29d872f95241561.shtml
+
+\end{thebibliography}
+
+
+% \bibliography{MyCollection.bib}
+
+
+\end{document}

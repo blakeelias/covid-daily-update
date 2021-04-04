@@ -1,0 +1,1877 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20201.20.0219.0753                               -->
+<workbook original-version='18.1' source-build='2020.1.0 (20201.20.0219.0753)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='confirm_agg' inline='true' name='federated.1arbrox1sx3kb71h1zpvb0q9alt1' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='confirm_agg' name='textscan.0pl2dvf14og7da1bzskjb1pksu6s'>
+            <connection class='textscan' directory='C:/Users/erixb/OneDrive/NECSI/Project_2019nCov/data/JH' filename='confirm_agg.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='date' date-parse-format='yyyy-MM-dd' name='Pivot Field Names' />
+            <column datatype='integer' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[2020-01-22]' />
+            <value name='[2020-01-23]' />
+            <value name='[2020-01-24]' />
+            <value name='[2020-01-25]' />
+            <value name='[2020-01-26]' />
+            <value name='[2020-01-27]' />
+            <value name='[2020-01-28]' />
+            <value name='[2020-01-29]' />
+            <value name='[2020-01-30]' />
+            <value name='[2020-01-31]' />
+            <value name='[2020-02-01]' />
+            <value name='[2020-02-02]' />
+            <value name='[2020-02-03]' />
+            <value name='[2020-02-04]' />
+            <value name='[2020-02-05]' />
+            <value name='[2020-02-06]' />
+            <value name='[2020-02-07]' />
+            <value name='[2020-02-08]' />
+            <value name='[2020-02-09]' />
+            <value name='[2020-02-10]' />
+            <value name='[2020-02-11]' />
+            <value name='[2020-02-12]' />
+            <value name='[2020-02-13]' />
+            <value name='[2020-02-14]' />
+            <value name='[2020-02-15]' />
+            <value name='[2020-02-16]' />
+            <value name='[2020-02-17]' />
+            <value name='[2020-02-18]' />
+            <value name='[2020-02-19]' />
+            <value name='[2020-02-20]' />
+            <value name='[2020-02-21]' />
+            <value name='[2020-02-22]' />
+            <value name='[2020-02-23]' />
+            <value name='[2020-02-24]' />
+            <value name='[2020-02-25]' />
+            <value name='[2020-02-26]' />
+            <value name='[2020-02-27]' />
+            <value name='[2020-02-28]' />
+            <value name='[2020-02-29]' />
+            <value name='[2020-03-01]' />
+            <value name='[2020-03-02]' />
+            <value name='[2020-03-03]' />
+            <value name='[2020-03-04]' />
+            <value name='[2020-03-05]' />
+            <value name='[2020-03-06]' />
+            <value name='[2020-03-07]' />
+            <value name='[2020-03-08]' />
+            <value name='[2020-03-09]' />
+            <value name='[2020-03-10]' />
+            <value name='[2020-03-11]' />
+            <value name='[2020-03-12]' />
+            <value name='[2020-03-13]' />
+            <value name='[2020-03-14]' />
+            <value name='[2020-03-15]' />
+            <value name='[2020-03-16]' />
+            <value name='[2020-03-17]' />
+            <value name='[2020-03-18]' />
+            <value name='[2020-03-19]' />
+            <value name='[2020-03-20]' />
+            <value name='[2020-03-21]' />
+            <value name='[2020-03-22]' />
+            <value name='[2020-03-23]' />
+            <value name='[2020-03-24]' />
+            <value name='[2020-03-25]' />
+            <value name='[2020-03-26]' />
+            <value name='[2020-03-27]' />
+            <value name='[2020-03-28]' />
+            <value name='[2020-03-29]' />
+            <value name='[2020-03-30]' />
+            <value name='[2020-03-31]' />
+            <value name='[2020-04-01]' />
+            <value name='[2020-04-02]' />
+            <value name='[2020-04-03]' />
+            <value name='[2020-04-04]' />
+            <value name='[2020-04-05]' />
+            <value name='[2020-04-06]' />
+            <value name='[2020-04-07]' />
+            <value name='[2020-04-08]' />
+            <value name='[2020-04-09]' />
+            <value name='[2020-04-10]' />
+            <value name='[2020-04-11]' />
+            <value name='[2020-04-12]' />
+            <value name='[2020-04-13]' />
+            <value name='[2020-04-14]' />
+            <value name='[2020-04-15]' />
+            <value name='[2020-04-16]' />
+            <value name='[2020-04-17]' />
+            <value name='[2020-04-18]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[confirm_agg.csv].[2020-01-22]' />
+              <field name='[confirm_agg.csv].[2020-01-23]' />
+              <field name='[confirm_agg.csv].[2020-01-24]' />
+              <field name='[confirm_agg.csv].[2020-01-25]' />
+              <field name='[confirm_agg.csv].[2020-01-26]' />
+              <field name='[confirm_agg.csv].[2020-01-27]' />
+              <field name='[confirm_agg.csv].[2020-01-28]' />
+              <field name='[confirm_agg.csv].[2020-01-29]' />
+              <field name='[confirm_agg.csv].[2020-01-30]' />
+              <field name='[confirm_agg.csv].[2020-01-31]' />
+              <field name='[confirm_agg.csv].[2020-02-01]' />
+              <field name='[confirm_agg.csv].[2020-02-02]' />
+              <field name='[confirm_agg.csv].[2020-02-03]' />
+              <field name='[confirm_agg.csv].[2020-02-04]' />
+              <field name='[confirm_agg.csv].[2020-02-05]' />
+              <field name='[confirm_agg.csv].[2020-02-06]' />
+              <field name='[confirm_agg.csv].[2020-02-07]' />
+              <field name='[confirm_agg.csv].[2020-02-08]' />
+              <field name='[confirm_agg.csv].[2020-02-09]' />
+              <field name='[confirm_agg.csv].[2020-02-10]' />
+              <field name='[confirm_agg.csv].[2020-02-11]' />
+              <field name='[confirm_agg.csv].[2020-02-12]' />
+              <field name='[confirm_agg.csv].[2020-02-13]' />
+              <field name='[confirm_agg.csv].[2020-02-14]' />
+              <field name='[confirm_agg.csv].[2020-02-15]' />
+              <field name='[confirm_agg.csv].[2020-02-16]' />
+              <field name='[confirm_agg.csv].[2020-02-17]' />
+              <field name='[confirm_agg.csv].[2020-02-18]' />
+              <field name='[confirm_agg.csv].[2020-02-19]' />
+              <field name='[confirm_agg.csv].[2020-02-20]' />
+              <field name='[confirm_agg.csv].[2020-02-21]' />
+              <field name='[confirm_agg.csv].[2020-02-22]' />
+              <field name='[confirm_agg.csv].[2020-02-23]' />
+              <field name='[confirm_agg.csv].[2020-02-24]' />
+              <field name='[confirm_agg.csv].[2020-02-25]' />
+              <field name='[confirm_agg.csv].[2020-02-26]' />
+              <field name='[confirm_agg.csv].[2020-02-27]' />
+              <field name='[confirm_agg.csv].[2020-02-28]' />
+              <field name='[confirm_agg.csv].[2020-02-29]' />
+              <field name='[confirm_agg.csv].[2020-03-01]' />
+              <field name='[confirm_agg.csv].[2020-03-02]' />
+              <field name='[confirm_agg.csv].[2020-03-03]' />
+              <field name='[confirm_agg.csv].[2020-03-04]' />
+              <field name='[confirm_agg.csv].[2020-03-05]' />
+              <field name='[confirm_agg.csv].[2020-03-06]' />
+              <field name='[confirm_agg.csv].[2020-03-07]' />
+              <field name='[confirm_agg.csv].[2020-03-08]' />
+              <field name='[confirm_agg.csv].[2020-03-09]' />
+              <field name='[confirm_agg.csv].[2020-03-10]' />
+              <field name='[confirm_agg.csv].[2020-03-11]' />
+              <field name='[confirm_agg.csv].[2020-03-12]' />
+              <field name='[confirm_agg.csv].[2020-03-13]' />
+              <field name='[confirm_agg.csv].[2020-03-14]' />
+              <field name='[confirm_agg.csv].[2020-03-15]' />
+              <field name='[confirm_agg.csv].[2020-03-16]' />
+              <field name='[confirm_agg.csv].[2020-03-17]' />
+              <field name='[confirm_agg.csv].[2020-03-18]' />
+              <field name='[confirm_agg.csv].[2020-03-19]' />
+              <field name='[confirm_agg.csv].[2020-03-20]' />
+              <field name='[confirm_agg.csv].[2020-03-21]' />
+              <field name='[confirm_agg.csv].[2020-03-22]' />
+              <field name='[confirm_agg.csv].[2020-03-23]' />
+              <field name='[confirm_agg.csv].[2020-03-24]' />
+              <field name='[confirm_agg.csv].[2020-03-25]' />
+              <field name='[confirm_agg.csv].[2020-03-26]' />
+              <field name='[confirm_agg.csv].[2020-03-27]' />
+              <field name='[confirm_agg.csv].[2020-03-28]' />
+              <field name='[confirm_agg.csv].[2020-03-29]' />
+              <field name='[confirm_agg.csv].[2020-03-30]' />
+              <field name='[confirm_agg.csv].[2020-03-31]' />
+              <field name='[confirm_agg.csv].[2020-04-01]' />
+              <field name='[confirm_agg.csv].[2020-04-02]' />
+              <field name='[confirm_agg.csv].[2020-04-03]' />
+              <field name='[confirm_agg.csv].[2020-04-04]' />
+              <field name='[confirm_agg.csv].[2020-04-05]' />
+              <field name='[confirm_agg.csv].[2020-04-06]' />
+              <field name='[confirm_agg.csv].[2020-04-07]' />
+              <field name='[confirm_agg.csv].[2020-04-08]' />
+              <field name='[confirm_agg.csv].[2020-04-09]' />
+              <field name='[confirm_agg.csv].[2020-04-10]' />
+              <field name='[confirm_agg.csv].[2020-04-11]' />
+              <field name='[confirm_agg.csv].[2020-04-12]' />
+              <field name='[confirm_agg.csv].[2020-04-13]' />
+              <field name='[confirm_agg.csv].[2020-04-14]' />
+              <field name='[confirm_agg.csv].[2020-04-15]' />
+              <field name='[confirm_agg.csv].[2020-04-16]' />
+              <field name='[confirm_agg.csv].[2020-04-17]' />
+              <field name='[confirm_agg.csv].[2020-04-18]' />
+            </group>
+          </groups>
+          <relation connection='textscan.0pl2dvf14og7da1bzskjb1pksu6s' name='confirm_agg.csv' table='[confirm_agg#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='Country/Region' ordinal='0' />
+              <column datatype='integer' name='2020-01-22' ordinal='1' />
+              <column datatype='integer' name='2020-01-23' ordinal='2' />
+              <column datatype='integer' name='2020-01-24' ordinal='3' />
+              <column datatype='integer' name='2020-01-25' ordinal='4' />
+              <column datatype='integer' name='2020-01-26' ordinal='5' />
+              <column datatype='integer' name='2020-01-27' ordinal='6' />
+              <column datatype='integer' name='2020-01-28' ordinal='7' />
+              <column datatype='integer' name='2020-01-29' ordinal='8' />
+              <column datatype='integer' name='2020-01-30' ordinal='9' />
+              <column datatype='integer' name='2020-01-31' ordinal='10' />
+              <column datatype='integer' name='2020-02-01' ordinal='11' />
+              <column datatype='integer' name='2020-02-02' ordinal='12' />
+              <column datatype='integer' name='2020-02-03' ordinal='13' />
+              <column datatype='integer' name='2020-02-04' ordinal='14' />
+              <column datatype='integer' name='2020-02-05' ordinal='15' />
+              <column datatype='integer' name='2020-02-06' ordinal='16' />
+              <column datatype='integer' name='2020-02-07' ordinal='17' />
+              <column datatype='integer' name='2020-02-08' ordinal='18' />
+              <column datatype='integer' name='2020-02-09' ordinal='19' />
+              <column datatype='integer' name='2020-02-10' ordinal='20' />
+              <column datatype='integer' name='2020-02-11' ordinal='21' />
+              <column datatype='integer' name='2020-02-12' ordinal='22' />
+              <column datatype='integer' name='2020-02-13' ordinal='23' />
+              <column datatype='integer' name='2020-02-14' ordinal='24' />
+              <column datatype='integer' name='2020-02-15' ordinal='25' />
+              <column datatype='integer' name='2020-02-16' ordinal='26' />
+              <column datatype='integer' name='2020-02-17' ordinal='27' />
+              <column datatype='integer' name='2020-02-18' ordinal='28' />
+              <column datatype='integer' name='2020-02-19' ordinal='29' />
+              <column datatype='integer' name='2020-02-20' ordinal='30' />
+              <column datatype='integer' name='2020-02-21' ordinal='31' />
+              <column datatype='integer' name='2020-02-22' ordinal='32' />
+              <column datatype='integer' name='2020-02-23' ordinal='33' />
+              <column datatype='integer' name='2020-02-24' ordinal='34' />
+              <column datatype='integer' name='2020-02-25' ordinal='35' />
+              <column datatype='integer' name='2020-02-26' ordinal='36' />
+              <column datatype='integer' name='2020-02-27' ordinal='37' />
+              <column datatype='integer' name='2020-02-28' ordinal='38' />
+              <column datatype='integer' name='2020-02-29' ordinal='39' />
+              <column datatype='integer' name='2020-03-01' ordinal='40' />
+              <column datatype='integer' name='2020-03-02' ordinal='41' />
+              <column datatype='integer' name='2020-03-03' ordinal='42' />
+              <column datatype='integer' name='2020-03-04' ordinal='43' />
+              <column datatype='integer' name='2020-03-05' ordinal='44' />
+              <column datatype='integer' name='2020-03-06' ordinal='45' />
+              <column datatype='integer' name='2020-03-07' ordinal='46' />
+              <column datatype='integer' name='2020-03-08' ordinal='47' />
+              <column datatype='integer' name='2020-03-09' ordinal='48' />
+              <column datatype='integer' name='2020-03-10' ordinal='49' />
+              <column datatype='integer' name='2020-03-11' ordinal='50' />
+              <column datatype='integer' name='2020-03-12' ordinal='51' />
+              <column datatype='integer' name='2020-03-13' ordinal='52' />
+              <column datatype='integer' name='2020-03-14' ordinal='53' />
+              <column datatype='integer' name='2020-03-15' ordinal='54' />
+              <column datatype='integer' name='2020-03-16' ordinal='55' />
+              <column datatype='integer' name='2020-03-17' ordinal='56' />
+              <column datatype='integer' name='2020-03-18' ordinal='57' />
+              <column datatype='integer' name='2020-03-19' ordinal='58' />
+              <column datatype='integer' name='2020-03-20' ordinal='59' />
+              <column datatype='integer' name='2020-03-21' ordinal='60' />
+              <column datatype='integer' name='2020-03-22' ordinal='61' />
+              <column datatype='integer' name='2020-03-23' ordinal='62' />
+              <column datatype='integer' name='2020-03-24' ordinal='63' />
+              <column datatype='integer' name='2020-03-25' ordinal='64' />
+              <column datatype='integer' name='2020-03-26' ordinal='65' />
+              <column datatype='integer' name='2020-03-27' ordinal='66' />
+              <column datatype='integer' name='2020-03-28' ordinal='67' />
+              <column datatype='integer' name='2020-03-29' ordinal='68' />
+              <column datatype='integer' name='2020-03-30' ordinal='69' />
+              <column datatype='integer' name='2020-03-31' ordinal='70' />
+              <column datatype='integer' name='2020-04-01' ordinal='71' />
+              <column datatype='integer' name='2020-04-02' ordinal='72' />
+              <column datatype='integer' name='2020-04-03' ordinal='73' />
+              <column datatype='integer' name='2020-04-04' ordinal='74' />
+              <column datatype='integer' name='2020-04-05' ordinal='75' />
+              <column datatype='integer' name='2020-04-06' ordinal='76' />
+              <column datatype='integer' name='2020-04-07' ordinal='77' />
+              <column datatype='integer' name='2020-04-08' ordinal='78' />
+              <column datatype='integer' name='2020-04-09' ordinal='79' />
+              <column datatype='integer' name='2020-04-10' ordinal='80' />
+              <column datatype='integer' name='2020-04-11' ordinal='81' />
+              <column datatype='integer' name='2020-04-12' ordinal='82' />
+              <column datatype='integer' name='2020-04-13' ordinal='83' />
+              <column datatype='integer' name='2020-04-14' ordinal='84' />
+              <column datatype='integer' name='2020-04-15' ordinal='85' />
+              <column datatype='integer' name='2020-04-16' ordinal='86' />
+              <column datatype='integer' name='2020-04-17' ordinal='87' />
+              <column datatype='integer' name='2020-04-18' ordinal='88' />
+            </columns>
+          </relation>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[confirm_agg.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country/Region</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country/Region]</local-name>
+            <parent-name>[confirm_agg.csv]</parent-name>
+            <remote-alias>Country/Region</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country/Region]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Date' datatype='date' name='[Pivot Field Names]' role='dimension' type='ordinal' />
+      <column caption='Total' datatype='integer' name='[Pivot Field Values]' role='measure' type='quantitative' />
+      <column-instance column='[Country/Region]' derivation='None' name='[none:Country/Region:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.487085' measure-ordering='alphabetic' measure-percentage='0.512915' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Country/Region:nk]' palette='tableau-20' type='palette'>
+            <map to='#17becf'>
+              <bucket>&quot;Peru&quot;</bucket>
+            </map>
+            <map to='#1f77b4'>
+              <bucket>&quot;Bolivia&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;Haiti&quot;</bucket>
+            </map>
+            <map to='#7f7f7f'>
+              <bucket>&quot;Dominican Republic&quot;</bucket>
+            </map>
+            <map to='#8c564b'>
+              <bucket>&quot;Cuba&quot;</bucket>
+            </map>
+            <map to='#9467bd'>
+              <bucket>&quot;Uruguay&quot;</bucket>
+            </map>
+            <map to='#98df8a'>
+              <bucket>&quot;Honduras&quot;</bucket>
+            </map>
+            <map to='#9edae5'>
+              <bucket>&quot;Brazil&quot;</bucket>
+            </map>
+            <map to='#aec7e8'>
+              <bucket>&quot;Costa Rica&quot;</bucket>
+            </map>
+            <map to='#bcbd22'>
+              <bucket>&quot;Ecuador&quot;</bucket>
+            </map>
+            <map to='#c49c94'>
+              <bucket>&quot;Argentina&quot;</bucket>
+            </map>
+            <map to='#c5b0d5'>
+              <bucket>&quot;Venezuela&quot;</bucket>
+            </map>
+            <map to='#c7c7c7'>
+              <bucket>&quot;Mexico&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;Nicaragua&quot;</bucket>
+            </map>
+            <map to='#dbdb8d'>
+              <bucket>&quot;Chile&quot;</bucket>
+            </map>
+            <map to='#e377c2'>
+              <bucket>&quot;Colombia&quot;</bucket>
+            </map>
+            <map to='#f7b6d2'>
+              <bucket>&quot;Panama&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;El Salvador&quot;</bucket>
+            </map>
+            <map to='#ff9896'>
+              <bucket>&quot;Paraguay&quot;</bucket>
+            </map>
+            <map to='#ffbb78'>
+              <bucket>&quot;Guatemala&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <default-sorts>
+        <manual-sort column='[none:Country/Region:nk]' direction='ASC'>
+          <dictionary>
+            <bucket>&quot;Bolivia&quot;</bucket>
+            <bucket>&quot;Costa Rica&quot;</bucket>
+            <bucket>&quot;El Salvador&quot;</bucket>
+            <bucket>&quot;Guatemala&quot;</bucket>
+            <bucket>&quot;Haiti&quot;</bucket>
+            <bucket>&quot;Honduras&quot;</bucket>
+            <bucket>&quot;Nicaragua&quot;</bucket>
+            <bucket>&quot;Paraguay&quot;</bucket>
+            <bucket>&quot;Uruguay&quot;</bucket>
+            <bucket>&quot;Venezuela&quot;</bucket>
+            <bucket>&quot;Cuba&quot;</bucket>
+            <bucket>&quot;Argentina&quot;</bucket>
+            <bucket>&quot;Colombia&quot;</bucket>
+            <bucket>&quot;Panama&quot;</bucket>
+            <bucket>&quot;Dominican Republic&quot;</bucket>
+            <bucket>&quot;Mexico&quot;</bucket>
+            <bucket>&quot;Ecuador&quot;</bucket>
+            <bucket>&quot;Chile&quot;</bucket>
+            <bucket>&quot;Peru&quot;</bucket>
+            <bucket>&quot;Brazil&quot;</bucket>
+          </dictionary>
+        </manual-sort>
+      </default-sorts>
+      <filter class='categorical' column='[Country/Region]' filter-group='2'>
+        <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+          <groupfilter function='member' level='[Country/Region]' member='&quot;Argentina&quot;' />
+          <groupfilter function='member' level='[Country/Region]' member='&quot;Bolivia&quot;' />
+          <groupfilter function='member' level='[Country/Region]' member='&quot;Brazil&quot;' />
+          <groupfilter function='member' level='[Country/Region]' member='&quot;Chile&quot;' />
+          <groupfilter function='member' level='[Country/Region]' member='&quot;Colombia&quot;' />
+          <groupfilter function='member' level='[Country/Region]' member='&quot;Costa Rica&quot;' />
+          <groupfilter function='member' level='[Country/Region]' member='&quot;Cuba&quot;' />
+          <groupfilter function='member' level='[Country/Region]' member='&quot;Dominican Republic&quot;' />
+          <groupfilter function='member' level='[Country/Region]' member='&quot;Ecuador&quot;' />
+          <groupfilter function='member' level='[Country/Region]' member='&quot;El Salvador&quot;' />
+          <groupfilter function='member' level='[Country/Region]' member='&quot;Guatemala&quot;' />
+          <groupfilter function='member' level='[Country/Region]' member='&quot;Haiti&quot;' />
+          <groupfilter function='member' level='[Country/Region]' member='&quot;Honduras&quot;' />
+          <groupfilter function='member' level='[Country/Region]' member='&quot;Mexico&quot;' />
+          <groupfilter function='member' level='[Country/Region]' member='&quot;Nicaragua&quot;' />
+          <groupfilter function='member' level='[Country/Region]' member='&quot;Panama&quot;' />
+          <groupfilter function='member' level='[Country/Region]' member='&quot;Paraguay&quot;' />
+          <groupfilter function='member' level='[Country/Region]' member='&quot;Peru&quot;' />
+          <groupfilter function='member' level='[Country/Region]' member='&quot;Uruguay&quot;' />
+          <groupfilter function='member' level='[Country/Region]' member='&quot;Venezuela&quot;' />
+        </groupfilter>
+      </filter>
+    </datasource>
+    <datasource caption='death_agg' inline='true' name='federated.1w7dapk09dd5p917bpx2q1ybv496' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='death_agg' name='textscan.1ycxx140am4aj119ddmbq0ia8pds'>
+            <connection class='textscan' directory='C:/Users/erixb/OneDrive/NECSI/Project_2019nCov/data/JH' filename='death_agg.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='integer' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[2020-01-22]' />
+            <value name='[2020-01-23]' />
+            <value name='[2020-01-24]' />
+            <value name='[2020-01-25]' />
+            <value name='[2020-01-26]' />
+            <value name='[2020-01-27]' />
+            <value name='[2020-01-28]' />
+            <value name='[2020-01-29]' />
+            <value name='[2020-01-30]' />
+            <value name='[2020-01-31]' />
+            <value name='[2020-02-01]' />
+            <value name='[2020-02-02]' />
+            <value name='[2020-02-03]' />
+            <value name='[2020-02-04]' />
+            <value name='[2020-02-05]' />
+            <value name='[2020-02-06]' />
+            <value name='[2020-02-07]' />
+            <value name='[2020-02-08]' />
+            <value name='[2020-02-09]' />
+            <value name='[2020-02-10]' />
+            <value name='[2020-02-11]' />
+            <value name='[2020-02-12]' />
+            <value name='[2020-02-13]' />
+            <value name='[2020-02-14]' />
+            <value name='[2020-02-15]' />
+            <value name='[2020-02-16]' />
+            <value name='[2020-02-17]' />
+            <value name='[2020-02-18]' />
+            <value name='[2020-02-19]' />
+            <value name='[2020-02-20]' />
+            <value name='[2020-02-21]' />
+            <value name='[2020-02-22]' />
+            <value name='[2020-02-23]' />
+            <value name='[2020-02-24]' />
+            <value name='[2020-02-25]' />
+            <value name='[2020-02-26]' />
+            <value name='[2020-02-27]' />
+            <value name='[2020-02-28]' />
+            <value name='[2020-02-29]' />
+            <value name='[2020-03-01]' />
+            <value name='[2020-03-02]' />
+            <value name='[2020-03-03]' />
+            <value name='[2020-03-04]' />
+            <value name='[2020-03-05]' />
+            <value name='[2020-03-06]' />
+            <value name='[2020-03-07]' />
+            <value name='[2020-03-08]' />
+            <value name='[2020-03-09]' />
+            <value name='[2020-03-10]' />
+            <value name='[2020-03-11]' />
+            <value name='[2020-03-12]' />
+            <value name='[2020-03-13]' />
+            <value name='[2020-03-14]' />
+            <value name='[2020-03-15]' />
+            <value name='[2020-03-16]' />
+            <value name='[2020-03-17]' />
+            <value name='[2020-03-18]' />
+            <value name='[2020-03-19]' />
+            <value name='[2020-03-20]' />
+            <value name='[2020-03-21]' />
+            <value name='[2020-03-22]' />
+            <value name='[2020-03-23]' />
+            <value name='[2020-03-24]' />
+            <value name='[2020-03-25]' />
+            <value name='[2020-03-26]' />
+            <value name='[2020-03-27]' />
+            <value name='[2020-03-28]' />
+            <value name='[2020-03-29]' />
+            <value name='[2020-03-30]' />
+            <value name='[2020-03-31]' />
+            <value name='[2020-04-01]' />
+            <value name='[2020-04-02]' />
+            <value name='[2020-04-03]' />
+            <value name='[2020-04-04]' />
+            <value name='[2020-04-05]' />
+            <value name='[2020-04-06]' />
+            <value name='[2020-04-07]' />
+            <value name='[2020-04-08]' />
+            <value name='[2020-04-09]' />
+            <value name='[2020-04-10]' />
+            <value name='[2020-04-11]' />
+            <value name='[2020-04-12]' />
+            <value name='[2020-04-13]' />
+            <value name='[2020-04-14]' />
+            <value name='[2020-04-15]' />
+            <value name='[2020-04-16]' />
+            <value name='[2020-04-17]' />
+            <value name='[2020-04-18]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[death_agg.csv].[2020-01-22]' />
+              <field name='[death_agg.csv].[2020-01-23]' />
+              <field name='[death_agg.csv].[2020-01-24]' />
+              <field name='[death_agg.csv].[2020-01-25]' />
+              <field name='[death_agg.csv].[2020-01-26]' />
+              <field name='[death_agg.csv].[2020-01-27]' />
+              <field name='[death_agg.csv].[2020-01-28]' />
+              <field name='[death_agg.csv].[2020-01-29]' />
+              <field name='[death_agg.csv].[2020-01-30]' />
+              <field name='[death_agg.csv].[2020-01-31]' />
+              <field name='[death_agg.csv].[2020-02-01]' />
+              <field name='[death_agg.csv].[2020-02-02]' />
+              <field name='[death_agg.csv].[2020-02-03]' />
+              <field name='[death_agg.csv].[2020-02-04]' />
+              <field name='[death_agg.csv].[2020-02-05]' />
+              <field name='[death_agg.csv].[2020-02-06]' />
+              <field name='[death_agg.csv].[2020-02-07]' />
+              <field name='[death_agg.csv].[2020-02-08]' />
+              <field name='[death_agg.csv].[2020-02-09]' />
+              <field name='[death_agg.csv].[2020-02-10]' />
+              <field name='[death_agg.csv].[2020-02-11]' />
+              <field name='[death_agg.csv].[2020-02-12]' />
+              <field name='[death_agg.csv].[2020-02-13]' />
+              <field name='[death_agg.csv].[2020-02-14]' />
+              <field name='[death_agg.csv].[2020-02-15]' />
+              <field name='[death_agg.csv].[2020-02-16]' />
+              <field name='[death_agg.csv].[2020-02-17]' />
+              <field name='[death_agg.csv].[2020-02-18]' />
+              <field name='[death_agg.csv].[2020-02-19]' />
+              <field name='[death_agg.csv].[2020-02-20]' />
+              <field name='[death_agg.csv].[2020-02-21]' />
+              <field name='[death_agg.csv].[2020-02-22]' />
+              <field name='[death_agg.csv].[2020-02-23]' />
+              <field name='[death_agg.csv].[2020-02-24]' />
+              <field name='[death_agg.csv].[2020-02-25]' />
+              <field name='[death_agg.csv].[2020-02-26]' />
+              <field name='[death_agg.csv].[2020-02-27]' />
+              <field name='[death_agg.csv].[2020-02-28]' />
+              <field name='[death_agg.csv].[2020-02-29]' />
+              <field name='[death_agg.csv].[2020-03-01]' />
+              <field name='[death_agg.csv].[2020-03-02]' />
+              <field name='[death_agg.csv].[2020-03-03]' />
+              <field name='[death_agg.csv].[2020-03-04]' />
+              <field name='[death_agg.csv].[2020-03-05]' />
+              <field name='[death_agg.csv].[2020-03-06]' />
+              <field name='[death_agg.csv].[2020-03-07]' />
+              <field name='[death_agg.csv].[2020-03-08]' />
+              <field name='[death_agg.csv].[2020-03-09]' />
+              <field name='[death_agg.csv].[2020-03-10]' />
+              <field name='[death_agg.csv].[2020-03-11]' />
+              <field name='[death_agg.csv].[2020-03-12]' />
+              <field name='[death_agg.csv].[2020-03-13]' />
+              <field name='[death_agg.csv].[2020-03-14]' />
+              <field name='[death_agg.csv].[2020-03-15]' />
+              <field name='[death_agg.csv].[2020-03-16]' />
+              <field name='[death_agg.csv].[2020-03-17]' />
+              <field name='[death_agg.csv].[2020-03-18]' />
+              <field name='[death_agg.csv].[2020-03-19]' />
+              <field name='[death_agg.csv].[2020-03-20]' />
+              <field name='[death_agg.csv].[2020-03-21]' />
+              <field name='[death_agg.csv].[2020-03-22]' />
+              <field name='[death_agg.csv].[2020-03-23]' />
+              <field name='[death_agg.csv].[2020-03-24]' />
+              <field name='[death_agg.csv].[2020-03-25]' />
+              <field name='[death_agg.csv].[2020-03-26]' />
+              <field name='[death_agg.csv].[2020-03-27]' />
+              <field name='[death_agg.csv].[2020-03-28]' />
+              <field name='[death_agg.csv].[2020-03-29]' />
+              <field name='[death_agg.csv].[2020-03-30]' />
+              <field name='[death_agg.csv].[2020-03-31]' />
+              <field name='[death_agg.csv].[2020-04-01]' />
+              <field name='[death_agg.csv].[2020-04-02]' />
+              <field name='[death_agg.csv].[2020-04-03]' />
+              <field name='[death_agg.csv].[2020-04-04]' />
+              <field name='[death_agg.csv].[2020-04-05]' />
+              <field name='[death_agg.csv].[2020-04-06]' />
+              <field name='[death_agg.csv].[2020-04-07]' />
+              <field name='[death_agg.csv].[2020-04-08]' />
+              <field name='[death_agg.csv].[2020-04-09]' />
+              <field name='[death_agg.csv].[2020-04-10]' />
+              <field name='[death_agg.csv].[2020-04-11]' />
+              <field name='[death_agg.csv].[2020-04-12]' />
+              <field name='[death_agg.csv].[2020-04-13]' />
+              <field name='[death_agg.csv].[2020-04-14]' />
+              <field name='[death_agg.csv].[2020-04-15]' />
+              <field name='[death_agg.csv].[2020-04-16]' />
+              <field name='[death_agg.csv].[2020-04-17]' />
+              <field name='[death_agg.csv].[2020-04-18]' />
+            </group>
+          </groups>
+          <relation connection='textscan.1ycxx140am4aj119ddmbq0ia8pds' name='death_agg.csv' table='[death_agg#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='Country/Region' ordinal='0' />
+              <column datatype='integer' name='2020-01-22' ordinal='1' />
+              <column datatype='integer' name='2020-01-23' ordinal='2' />
+              <column datatype='integer' name='2020-01-24' ordinal='3' />
+              <column datatype='integer' name='2020-01-25' ordinal='4' />
+              <column datatype='integer' name='2020-01-26' ordinal='5' />
+              <column datatype='integer' name='2020-01-27' ordinal='6' />
+              <column datatype='integer' name='2020-01-28' ordinal='7' />
+              <column datatype='integer' name='2020-01-29' ordinal='8' />
+              <column datatype='integer' name='2020-01-30' ordinal='9' />
+              <column datatype='integer' name='2020-01-31' ordinal='10' />
+              <column datatype='integer' name='2020-02-01' ordinal='11' />
+              <column datatype='integer' name='2020-02-02' ordinal='12' />
+              <column datatype='integer' name='2020-02-03' ordinal='13' />
+              <column datatype='integer' name='2020-02-04' ordinal='14' />
+              <column datatype='integer' name='2020-02-05' ordinal='15' />
+              <column datatype='integer' name='2020-02-06' ordinal='16' />
+              <column datatype='integer' name='2020-02-07' ordinal='17' />
+              <column datatype='integer' name='2020-02-08' ordinal='18' />
+              <column datatype='integer' name='2020-02-09' ordinal='19' />
+              <column datatype='integer' name='2020-02-10' ordinal='20' />
+              <column datatype='integer' name='2020-02-11' ordinal='21' />
+              <column datatype='integer' name='2020-02-12' ordinal='22' />
+              <column datatype='integer' name='2020-02-13' ordinal='23' />
+              <column datatype='integer' name='2020-02-14' ordinal='24' />
+              <column datatype='integer' name='2020-02-15' ordinal='25' />
+              <column datatype='integer' name='2020-02-16' ordinal='26' />
+              <column datatype='integer' name='2020-02-17' ordinal='27' />
+              <column datatype='integer' name='2020-02-18' ordinal='28' />
+              <column datatype='integer' name='2020-02-19' ordinal='29' />
+              <column datatype='integer' name='2020-02-20' ordinal='30' />
+              <column datatype='integer' name='2020-02-21' ordinal='31' />
+              <column datatype='integer' name='2020-02-22' ordinal='32' />
+              <column datatype='integer' name='2020-02-23' ordinal='33' />
+              <column datatype='integer' name='2020-02-24' ordinal='34' />
+              <column datatype='integer' name='2020-02-25' ordinal='35' />
+              <column datatype='integer' name='2020-02-26' ordinal='36' />
+              <column datatype='integer' name='2020-02-27' ordinal='37' />
+              <column datatype='integer' name='2020-02-28' ordinal='38' />
+              <column datatype='integer' name='2020-02-29' ordinal='39' />
+              <column datatype='integer' name='2020-03-01' ordinal='40' />
+              <column datatype='integer' name='2020-03-02' ordinal='41' />
+              <column datatype='integer' name='2020-03-03' ordinal='42' />
+              <column datatype='integer' name='2020-03-04' ordinal='43' />
+              <column datatype='integer' name='2020-03-05' ordinal='44' />
+              <column datatype='integer' name='2020-03-06' ordinal='45' />
+              <column datatype='integer' name='2020-03-07' ordinal='46' />
+              <column datatype='integer' name='2020-03-08' ordinal='47' />
+              <column datatype='integer' name='2020-03-09' ordinal='48' />
+              <column datatype='integer' name='2020-03-10' ordinal='49' />
+              <column datatype='integer' name='2020-03-11' ordinal='50' />
+              <column datatype='integer' name='2020-03-12' ordinal='51' />
+              <column datatype='integer' name='2020-03-13' ordinal='52' />
+              <column datatype='integer' name='2020-03-14' ordinal='53' />
+              <column datatype='integer' name='2020-03-15' ordinal='54' />
+              <column datatype='integer' name='2020-03-16' ordinal='55' />
+              <column datatype='integer' name='2020-03-17' ordinal='56' />
+              <column datatype='integer' name='2020-03-18' ordinal='57' />
+              <column datatype='integer' name='2020-03-19' ordinal='58' />
+              <column datatype='integer' name='2020-03-20' ordinal='59' />
+              <column datatype='integer' name='2020-03-21' ordinal='60' />
+              <column datatype='integer' name='2020-03-22' ordinal='61' />
+              <column datatype='integer' name='2020-03-23' ordinal='62' />
+              <column datatype='integer' name='2020-03-24' ordinal='63' />
+              <column datatype='integer' name='2020-03-25' ordinal='64' />
+              <column datatype='integer' name='2020-03-26' ordinal='65' />
+              <column datatype='integer' name='2020-03-27' ordinal='66' />
+              <column datatype='integer' name='2020-03-28' ordinal='67' />
+              <column datatype='integer' name='2020-03-29' ordinal='68' />
+              <column datatype='integer' name='2020-03-30' ordinal='69' />
+              <column datatype='integer' name='2020-03-31' ordinal='70' />
+              <column datatype='integer' name='2020-04-01' ordinal='71' />
+              <column datatype='integer' name='2020-04-02' ordinal='72' />
+              <column datatype='integer' name='2020-04-03' ordinal='73' />
+              <column datatype='integer' name='2020-04-04' ordinal='74' />
+              <column datatype='integer' name='2020-04-05' ordinal='75' />
+              <column datatype='integer' name='2020-04-06' ordinal='76' />
+              <column datatype='integer' name='2020-04-07' ordinal='77' />
+              <column datatype='integer' name='2020-04-08' ordinal='78' />
+              <column datatype='integer' name='2020-04-09' ordinal='79' />
+              <column datatype='integer' name='2020-04-10' ordinal='80' />
+              <column datatype='integer' name='2020-04-11' ordinal='81' />
+              <column datatype='integer' name='2020-04-12' ordinal='82' />
+              <column datatype='integer' name='2020-04-13' ordinal='83' />
+              <column datatype='integer' name='2020-04-14' ordinal='84' />
+              <column datatype='integer' name='2020-04-15' ordinal='85' />
+              <column datatype='integer' name='2020-04-16' ordinal='86' />
+              <column datatype='integer' name='2020-04-17' ordinal='87' />
+              <column datatype='integer' name='2020-04-18' ordinal='88' />
+            </columns>
+          </relation>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[death_agg.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country/Region</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country/Region]</local-name>
+            <parent-name>[death_agg.csv]</parent-name>
+            <remote-alias>Country/Region</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country/Region]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Date' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+      <column caption='Total death' datatype='integer' name='[Pivot Field Values]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.47348' measure-ordering='alphabetic' measure-percentage='0.52652' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <filter class='categorical' column='[Pivot Field Names]' filter-group='2'>
+        <groupfilter function='member' level='[Pivot Field Names]' member='&quot;2020-04-18&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </filter>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='confirm_agg' name='federated.1arbrox1sx3kb71h1zpvb0q9alt1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1arbrox1sx3kb71h1zpvb0q9alt1'>
+            <column datatype='string' name='[Country/Region]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Date' datatype='date' name='[Pivot Field Names]' role='dimension' type='ordinal' />
+            <column caption='Total' datatype='integer' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column-instance column='[Country/Region]' derivation='None' name='[none:Country/Region:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Names]' derivation='None' name='[none:Pivot Field Names:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Pivot Field Names:qk]' scope='cols' value='' />
+            <encoding attr='space' class='0' field='[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Pivot Field Names:qk]' field-type='quantitative' max='#2020-04-18#' min='#2020-03-10#' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='1' field='[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[sum:Pivot Field Values:qk]' field-type='quantitative' fold='true' scope='rows' synchronized='true' type='space' />
+            <encoding attr='space' class='0' field='[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[sum:Pivot Field Values:qk]' field-type='quantitative' major-origin='0' major-show='false' major-spacing='100000' minor-origin='0' minor-show='false' minor-spacing='10000' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[sum:Pivot Field Values:qk]' scope='rows' value='' />
+            <format attr='title' class='1' field='[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[sum:Pivot Field Values:qk]' scope='rows' value='Total Cases' />
+            <format attr='width' field='[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[sum:Pivot Field Values:qk]' value='130' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' field='[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Pivot Field Names:qk]' value='18' />
+            <format attr='font-weight' field='[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Pivot Field Names:qk]' value='bold' />
+            <format attr='font-size' field='[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[sum:Pivot Field Values:qk]' value='24' />
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='font-size' value='22' />
+            <format attr='col-width' field='[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Country/Region:nk]' value='250' />
+          </style-rule>
+          <style-rule element='legend-title'>
+            <format attr='font-size' value='12' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Country/Region:nk]' />
+              <text column='[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Country/Region:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true'>&lt;[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Country/Region:nk]&gt;</run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='right' />
+                <format attr='wrap' value='on' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='highlight' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[sum:Pivot Field Values:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Country/Region:nk]' />
+              <text column='[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Country/Region:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true'>&lt;[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Country/Region:nk]&gt;</run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='right' />
+                <format attr='wrap' value='on' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='highlight' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[sum:Pivot Field Values:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Country/Region:nk]' />
+              <text column='[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Country/Region:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true'>&lt;[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Country/Region:nk]&gt;</run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='right' />
+                <format attr='wrap' value='on' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='highlight' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1arbrox1sx3kb71h1zpvb0q9alt1].[sum:Pivot Field Values:qk] + [federated.1arbrox1sx3kb71h1zpvb0q9alt1].[sum:Pivot Field Values:qk])</rows>
+        <cols>[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Pivot Field Names:qk]</cols>
+      </table>
+      <simple-id uuid='{555B616E-4552-47C3-AB24-64C444E1F562}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontsize='22'>Confirmed cases in Latin America</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='confirm_agg' name='federated.1arbrox1sx3kb71h1zpvb0q9alt1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1arbrox1sx3kb71h1zpvb0q9alt1'>
+            <column datatype='string' name='[Country/Region]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Date' datatype='date' name='[Pivot Field Names]' role='dimension' type='ordinal' />
+            <column caption='Total' datatype='integer' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column-instance column='[Country/Region]' derivation='None' name='[none:Country/Region:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Names]' derivation='None' name='[none:Pivot Field Names:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Pivot Field Names:ok]'>
+            <groupfilter function='member' level='[none:Pivot Field Names:ok]' member='#2020-04-18#' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Pivot Field Names:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[sum:Pivot Field Values:qk]' palette='blue_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[sum:Pivot Field Values:qk]' />
+              <color column='[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[sum:Pivot Field Values:qk]' />
+              <text column='[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Country/Region:nk]' />
+              <text column='[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[sum:Pivot Field Values:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Country/Region:nk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run>&lt;[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[sum:Pivot Field Values:qk]&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-weight' value='normal' />
+                <format attr='font-size' value='22' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{CF47EE1A-46F3-4E30-87A2-5E835C068E93}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontsize='22'>Death cases in Latin America</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='confirm_agg' name='federated.1arbrox1sx3kb71h1zpvb0q9alt1' />
+            <datasource caption='death_agg' name='federated.1w7dapk09dd5p917bpx2q1ybv496' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1arbrox1sx3kb71h1zpvb0q9alt1'>
+            <column datatype='string' name='[Country/Region]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Date' datatype='date' name='[Pivot Field Names]' role='dimension' type='ordinal' />
+            <column-instance column='[Country/Region]' derivation='None' name='[none:Country/Region:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Names]' derivation='None' name='[none:Pivot Field Names:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.1w7dapk09dd5p917bpx2q1ybv496'>
+            <column datatype='string' name='[Country/Region]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Total death' datatype='integer' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column-instance column='[Country/Region]' derivation='None' name='[none:Country/Region:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Country/Region:nk]'>
+            <groupfilter from='&quot;Argentina&quot;' function='range' level='[none:Country/Region:nk]' to='&quot;Venezuela&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Pivot Field Names:ok]'>
+            <groupfilter function='member' level='[none:Pivot Field Names:ok]' member='#2020-04-18#' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Country/Region:nk]</column>
+            <column>[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Pivot Field Names:ok]</column>
+          </slices>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1w7dapk09dd5p917bpx2q1ybv496].[sum:Pivot Field Values:qk]' palette='orange_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.1w7dapk09dd5p917bpx2q1ybv496].[sum:Pivot Field Values:qk]' />
+              <color column='[federated.1w7dapk09dd5p917bpx2q1ybv496].[sum:Pivot Field Values:qk]' />
+              <text column='[federated.1w7dapk09dd5p917bpx2q1ybv496].[none:Country/Region:nk]' />
+              <text column='[federated.1w7dapk09dd5p917bpx2q1ybv496].[sum:Pivot Field Values:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-size' value='20' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <join-lod-include-overrides>
+          <column>[federated.1w7dapk09dd5p917bpx2q1ybv496].[Country/Region]</column>
+        </join-lod-include-overrides>
+      </table>
+      <simple-id uuid='{ADB93722-461F-4E83-99DD-B29A6C0651BC}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='confirm_agg' name='federated.1arbrox1sx3kb71h1zpvb0q9alt1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1arbrox1sx3kb71h1zpvb0q9alt1'>
+            <column caption='Date' datatype='date' name='[Pivot Field Names]' role='dimension' type='ordinal' />
+            <column caption='Total' datatype='integer' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column-instance column='[Pivot Field Names]' derivation='None' name='[none:Pivot Field Names:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[sum:Pivot Field Values:qk]</rows>
+        <cols>[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Pivot Field Names:qk]</cols>
+      </table>
+      <simple-id uuid='{C69F776D-E7C6-4985-8989-40D56627E0A5}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='900' maxwidth='1600' minheight='900' minwidth='1600' preset-index='8' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98222' id='14' param='horz' type='layout-flow' w='99000' x='500' y='889'>
+            <zone h='98222' id='11' param='horz' type='layout-flow' w='99000' x='500' y='889'>
+              <zone h='98222' id='7' param='horz' type='layout-flow' w='99000' x='500' y='889'>
+                <zone h='98222' id='5' type='layout-basic' w='99000' x='500' y='889'>
+                  <zone h='98222' id='3' name='Sheet 1' show-title='false' w='99000' x='500' y='889'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='38000' id='8' name='Sheet 1' pane-specification-id='1' param='[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Country/Region:nk]' show-title='false' type='color' w='47750' x='36438' y='11444' />
+        <zone h='45222' id='9' name='Sheet 2' w='32438' x='1625' y='3111' />
+        <zone h='41667' id='12' name='Sheet 3' w='40375' x='1875' y='47667' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='950' minheight='950' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='20' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98222' id='19' param='vert' type='layout-flow' w='99000' x='500' y='889'>
+                <zone fixed-size='280' h='98222' id='3' is-fixed='true' name='Sheet 1' show-title='false' w='99000' x='500' y='889'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='38000' id='8' name='Sheet 1' pane-specification-id='1' param='[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Country/Region:nk]' show-title='false' type='color' w='47750' x='36438' y='11444'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45222' id='9' is-fixed='true' name='Sheet 2' w='32438' x='1625' y='3111'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='41667' id='12' is-fixed='true' name='Sheet 3' w='40375' x='1875' y='47667'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{5F7436AA-1458-4DFF-9317-D4E5E291DE77}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='51'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Country/Region:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Country/Region:nk]</field>
+            <field>[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Pivot Field Names:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{BE57D242-67DE-4D0B-B976-5A31CE7AE82C}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Country/Region:nk]</field>
+            <field>[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Pivot Field Names:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{3A83995A-73B0-47CB-8EB1-08289D71249A}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1w7dapk09dd5p917bpx2q1ybv496].[sum:Pivot Field Values:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Country/Region:nk]</field>
+            <field>[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Pivot Field Names:ok]</field>
+            <field>[federated.1w7dapk09dd5p917bpx2q1ybv496].[none:Country/Region:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{65DD3585-9E91-4390-9B67-6892E66C757D}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[none:Country/Region:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Sheet 2' />
+        <viewpoint name='Sheet 3' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{1405FE77-4641-4339-8E20-A75DA6D7CF79}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1arbrox1sx3kb71h1zpvb0q9alt1].[yr:Pivot Field Names:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{757B6006-D00B-403F-8B94-73735DBB5C14}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      QlPQAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAPSElEQVR4nO3c15Mc13WA8e/e23mmJ21CJAIF2mXZLy6Hf9d+d5Xf7AdJlhVJU6CSSSIt
+      sDlM3Mmxu68fdhcCKFAAJUsAcc/vaau2aqe36nx3z3RvjbLWWoRwlAcgDQhXeZdfjMfjt3kd
+      TCYTwjB8q9cg3OMBKKVI0/RtX8s7cQ3CLfptX4AQb5MEIJwmAQinSQDCaRKAcJoEIJwmAQin
+      SQDCaRKAcJoEIJwmAQinSQDCaRKAcJoEIJwmAQinSQDCaRKAcJoEIJwmAQinSQDCaRKAcJoE
+      IJwmAQinSQDCaRKAcJoEIJwmAQinSQDCaRKAcJoEIJwmAQinSQDCaRKAcJoEIJwmAQinSQDC
+      aRKAcJoEIJwmAQinSQDCaRKAcJoEIJwmAQinSQDCaRKAcJoEIJwmAQinSQDCaRKAcJoEIJwm
+      AQinSQDCaRKAcJoEIJwmAQinSQDCaRKAcJoEIJwmAQinSQDCaRKAcJoEIJwmAQinSQDCaRKA
+      cJoEIJwmAQinSQDCaRKAcJoEIJwmAQinSQDCaRKAcJoEIJwmAQinSQDCaRKAcJoEIJwmAQin
+      SQDCaRKAcJoEIJwmAQinSQDCaRKAcJoEIJwmAQinSQDCaRKAcJoEIJwmAQinSQDCaRKAcJoE
+      IJwmAQinSQDCaRKAcJoEIJwmAQinSQDCaRKAcJoEIJwmAQinSQDCaRKAcJoEIJwmAQinSQDC
+      aRKAcJoEIJwmAQinSQDCaRKAcJoEIJwmAQinSQDCaRKAcJoEIJwmAQinSQDCaRKAcJoEIJwm
+      AQinSQDCaRKAcJoEIJwmAQinSQDCaRKAcJoEIJwmAQinSQDCaRKAcJoEIJwmAQinSQDCaRKA
+      cJoEIJwmAQinSQDCaRKAcJoEIJwmAQinSQDCaRKAcJoEIJwmAQinSQDCWaP5Cu9tX4QQb8MX
+      RwN+8L/HEoBwS15Y/v2XR3Rax3ww+UQCEO7ojhf86093WLdPaBzusDi5IgEIN/xy74zv/3qf
+      W3xKvh1SjGLW1o8kAPF+ywvLv90/pNPc5+7gU/L9DwjsDtfuVAmTTQlAvL+64wX/8pMdbuSP
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 3' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAG6klEQVR4nO3a3W9b9R3H8c85fmoc13HSkKRJ24QS2g06KEtH0SaGxAa0G2hotNLYbtAu
+      +SO2u91tf8MudrdO3CxjF2hoUGmj1UoZaUtJWkLaJM2TE6eJ82Sfs4tWacuqCg8ZJ/u8XzdW
+      jmP9vnby9jk+x0Ecx7EAU2GjBwAaiQBgLXn3D//43a80f/Vyo2YBJElhMqXnXx9QtDBa97Xu
+      CaA4cknTQ+fqvijwIGEqrehYQdHspfqvVfcVgC2MAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCN
+      AGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCN
+      AGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCN
+      AGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCN
+      AGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCN
+      AGCNAGCNAGCNAGAt2egBgPsJ2w5IyR11X4cAsDWtzihYHq/7MhwC1aiprV1NbQ8pkant3SnZ
+      lJUk7ezprcdY+B8RQA3CZEr9x08o1ZxT/7GfKpXNfenH5nv6pCBQ98B3pYCXfavgEKhGqwtF
+      3Rz/XJ1PHFGYTOqRF19VpqVVMxfPK65WlMrmlGlp1djpd9Tx+FPadeBx3fjojPI9fSpeudTo
+      8fEFvBXVKN+zT91HvqcwkVRlbVWFvkc1+u6gZi58qJXinKKoqkJvv6KNdc0NX1RUqWju8pDS
+      uZ1SEDR6fHwBAdRocXxM42fe1/xnn6rQ26/l6QmVZ6cVhAnte/YFTX10VuW5aUmB+l96VcNv
+      /6nRI+MBCKAGcRRJcayuw0eVyRdUHLmk0tjV2/dVdXNiTF2Hj2p9aVFNu9pVWVtT+8FDatrV
+      odK1z6Q4vnWruLFPBJuCOI43/xqDb57U9NC5Rs4DKEyl9fqvTyieH6n/WnVfAdjCCADWCKBG
+      YTKlXFePEun0PdtTTc3Kde1RmLq1PdPSqtzuvWru6N78nUQ6o0y+8LXOiwcjgBoEiaR2376Q
+      1X/stc3TmkEYqrX/G5Kkg6/8TEEQav8PXlFcrSiOqpuP7/3+S+o//lpDZsf9cSGsBnG1ovEP
+      /q4wmdSOQtud7VGk6Y//pVRzTkEiIYWBUtlmBYmkVoo3JEnt33xSpWtXlWlpbdT4uA/2ADVq
+      7ujWYyfeuHV+/84JNGXbO9Xz9HNaK80rjiIN/+WUpFgHf/JzpXN5tT58QPNXLjducNwXAdQg
+      TCb16I9O6OKp36s8c2Nze5BIqjw3o9F3BxVHVTW17tJ6eUlLk9dVWVnWjkKblmdvqPPJ7yi/
+      p/eevQcai0OgGqSyOd2cvKaOQwOK40gzF87rsZNv6JO3/qCObx1RVNnQ8vSkVkvz6jp8VIpj
+      LYwOa/H6qBavjyoIE1Ica3Wh2Oingtu4EPYVZNs7JUnl2akGT/L/5eu8EMYe4CvgH3/74zMA
+      rBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEA
+      rBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEA
+      rBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArCUbPQBwP0EqpzjTUvd1CABbUpht
+      V1Bdq/s6BIAtKV4tSuWpuq/DZwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBYIwBsC3OL
+      q/rtHz/UO+eu6a3TVxRF8Zd+7OmhCVWj6L+2v/fvCb4LhO0himL1du7UD7+9V2c+mdLZy1Pq
+      bs/pwuicAgV6/qk9GvxgVG35HZpdWFFHa1azpRW9/Eyf1iuRAgU69d6I2luatLi8rh8/06eN
+      apU9ALafh7vyGpte0ttnPteLA/u0vzuv9z+e0Pjssp49tFvFm6s6cuAhrW1UtVhe18h4SbFi
+      TRbLeu6Jbq1XqlpZq2h4vEQA2H6uTpa0f3deUqwgkJoySZXXKgrDQEEQbN5Kku46UkomQgXB
+      XfeJr0Njm0gkAo3PLutv569roxLphYG9SoSB/np2TEsrGzr+9D79+Z+jkqSW5owCSflsWmEY
+      qNCclhSoNZeRJO3MphQGUqE5rSCO481GBt88qemhcw14esAdYSqtX/zml1JptP5r1X0FYAsj
+      AFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFj7D9uzmuwtejYk
+      AAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 4' width='192'>
+      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
+      AAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>

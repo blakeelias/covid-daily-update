@@ -1,0 +1,215 @@
+%\documentclass[twocolumn,journal]{IEEEtran}
+\documentclass[onecolumn,journal]{IEEEtran}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+%\usepackage[english]{babel}
+\usepackage{supertabular}
+\usepackage{longtable}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{bbm}
+%\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{breqn}
+\usepackage{fixltx2e}
+\usepackage{capt-of}
+%\usepackage{mdframed}
+\setcounter{MaxMatrixCols}{10}
+\usepackage{tikz}
+\usetikzlibrary{matrix}
+\usepackage{endnotes}
+\usepackage{soul}
+\usepackage{marginnote}
+%\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+%\newtheorem{remark}{Remark}
+%\newtheorem{error}{\color{Red} Error}
+\newtheorem{corollary}{Corollary}
+\newtheorem{proposition}{Proposition}
+\newtheorem{definition}{Definition}
+\newcommand{\mathsym}[1]{}
+\newcommand{\unicode}[1]{}
+\newcommand{\dsum} {\displaystyle\sum}
+\hyphenation{op-tical net-works semi-conduc-tor}
+\usepackage{pdfpages}
+\usepackage{enumitem}
+\usepackage{multicol}
+
+\headsep = 5pt
+\textheight = 730pt
+%\headsep = 8pt %25pt
+%\textheight = 720pt %674pt
+%\usepackage{geometry}
+
+\bibliographystyle{unsrt}
+
+\usepackage{float}
+
+ \usepackage{xcolor}
+ 
+\usepackage[framemethod=TikZ]{mdframed}
+%%%%%%%FRAME%%%%%%%%%%%
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage{framed}
+    % \BeforeBeginEnvironment{mdframed}{\begin{minipage}{\linewidth}}
+     %\AfterEndEnvironment{mdframed}{\end{minipage}\par}
+
+
+%	%\mdfsetup{%
+%	%skipabove=20pt,
+%	nobreak=true,
+%	   middlelinecolor=black,
+%	   middlelinewidth=1pt,
+%	   backgroundcolor=purple!10,
+%	   roundcorner=1pt}
+
+\mdfsetup{%
+	outerlinewidth=1,skipabove=20pt,backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{result}{Result}
+
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{theorem}{Theorem}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=gray!10, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{remark}{Remark}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=pink!30, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{quaestio}{Quaestio}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=5pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{background}{Background}
+
+%TRYING TO INCLUDE Ppls IN TOC
+\usepackage{hyperref}
+
+
+\begin{document}
+\title{\color{Brown} COVID-19 Testing \\
+\vspace{-0.35ex}}
+\author{Chen Shen and Yaneer Bar-Yam \\ New England Complex Systems Institute \\
+ \today 
+  \vspace{-14ex} \\ 
+
+   
+\bigskip
+\bigskip
+
+\textbf{}
+ }
+    
+\maketitle
+
+
+\flushbottom % Makes all text pages the same height
+
+%\maketitle % Print the title and abstract box
+
+%\tableofcontents % Print the contents section
+
+\thispagestyle{empty} % Removes page numbering from the first page
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+%\section*{Introduction} % The \section*{} command stops section numbering
+
+%\addcontentsline{toc}{section}{\hspace*{-\tocsep}Introduction} % Adds this section to the table of contents with negative horizontal space equal to the indent for the numbered sections
+
+%\tableofcontents 
+%\section{ Introduction}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+%\begin{multicols}{2}
+
+\section{Overview}
+ COVID-19 is a rapidly transmitting disease requiring hospitalization in about 20\% of cases, ICU care in 10\%, and resulting in death in 2-4\%. Complications rapidly increase for persons over 50 years old with comorbidities such as heart failure and coronary artery disease further increasing risk. COVID-19 can transmit even with mild symptoms (coughing, sneezing or elevated temperature) and perhaps before symptoms appear. 
+ 
+The COVID-19 outbreak has many more cases now than are visible (tip of the iceberg) and they grow rapidly. Testing is essential to know what the current status of the outbreak is, to identify individuals for isolation to limit transmission, and to provide assurance to concerned individuals if they are negative.  
+
+Large scale capacity at centralized testing laboratories is limited relative to the current need for widespread testing. However, many biolabs at academic institutions and corporations have the capability of performing testing with minimal ramp-up times to obtain reagents and to ensure safe handling protocols of samples. 
+
+Moreover, according to existing protocols, sample taking can be done by individuals on themselves or others at home by taking throat swabs. 
+
+\section{CDC guidance} 
+\begin{itemize}
+\item Acceptable Specimens: Respiratory specimens including: nasopharyngeal or oropharyngeal aspirates or washes, nasopharyngeal or \textbf{oropharyngeal swabs}, broncheoalveolar lavage, tracheal aspirates, and sputum. 
+\item Swab specimens should be collected only on swabs with a synthetic tip (such as polyester or Dacron$\textregistered$) with aluminum or plastic shafts. Swabs with calcium alginate or cotton tips with wooden shafts are not acceptable. 
+\item Serum Specimen Handling and Storage 
+\begin{itemize}
+\item Specimens can be stored at $4^\circ$ C for up to 72 hours after collection. 
+\item If a delay in extraction is expected, store specimens at $-70^\circ$ C or lower. 
+\item Extracted nucleic acids should be stored at $-70^\circ$ C or lower. 
+\item Specimen Rejection criteria: Specimens not kept at $2-4^\circ$C ($\le 4$ days) or frozen at $-70^\circ$C or below. Incomplete specimen labeling or documentation. Inappropriate specimen type. Insufficient specimen volume.
+\end{itemize}
+\end{itemize}
+
+\section{Individual who wants to be tested}
+\begin{itemize}
+\item Sign up at HIPAA compliant site \url{http://covidgettested.org}, including 
+	\begin{itemize}
+	\item Name
+	\item DOB
+	\item Choosing a designated drop off site.
+	\end{itemize}
+\item Print label and code word.
+\item Obtain plastic tipped swab (we have supplier and will coordinate this)
+\item Obtain zip lock bag
+\item Take throat sample (see video. Relevant video \url{https://www.youtube.com/watch?v=0bINBOH2Wok}) (consistent with oropharyngeal swabs).
+\item Place swab into zip lock bag with label.
+\item Place ziplock bag into freezer for 2 hours (this is sufficient to meet the requirements of keeping the sample cold for delivery within a few hours).
+\item Drop off, or arrange for drop off, zip lock bag at designated drop off site within 2 hours. 
+\end{itemize}
+
+\section{Lab that offers testing service}
+\begin{itemize}
+\item Sign up at \url{http://covidgettested.org} including 
+	\begin{itemize}
+	\item Lab name
+	\item Date/time at which site will be ready to receive samples
+	\item Capacity per day
+	\item Turn around time (less than 24 hours)
+	\item Select location for drop off / lab pick up 
+	\end{itemize}
+\item Make necessary arrangements for sample pick up.
+\item Run test
+\item Report result at \url{http://covidgettested.org} including 
+\begin{itemize}
+	\item Label number
+	\item Result
+	\end{itemize}
+\end{itemize}
+
+\section{Reporting to Individual}
+Website automatically emails results by sending by email one of: Positive = code word, or Negative = Word that is not code word.  And instructions:
+\begin{itemize}
+\item If the results are negative 
+\begin{itemize}
+	\item Continue to exercise caution based upon your symptoms. 
+	\item If COVID-19 Symptoms are present avoid contact with others and stay at home until symptoms disappear
+	\item If symptoms disappear continue to exercise Safe Space/Safe Zone guidelines so you are not infected by others.
+	\item If symptoms continue sign up for a retest. 
+	\end{itemize}
+\item If the results are positive 
+\begin{itemize}
+	\item Notify your physician 
+	\item Notify anyone you have been in contact with in the past 14 days so that they will isolate and test themselves.
+	\item Self-quarantine for 14-21 days (see instructions at http://endcoronavirus.org/seflquarantine)
+	\item Improve your ability to recover quickly by: Hydrating, Eating well, Saline throat wash, Breathing fresh air, Performing breathing exercises.
+	\end{itemize}
+\end{itemize}
+
+%\end{multicols}
+	
+
+	
+% \bibliography{MyCollection.bib}
+
+
+\end{document}

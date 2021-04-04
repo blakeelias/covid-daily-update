@@ -1,0 +1,203 @@
+%\documentclass[twocolumn,journal]{IEEEtran}
+\documentclass[onecolumn,journal]{IEEEtran}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+%\usepackage[english]{babel}
+\usepackage{supertabular}
+\usepackage{longtable}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{bbm}
+%\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{breqn}
+\usepackage{fixltx2e}
+\usepackage{capt-of}
+%\usepackage{mdframed}
+\setcounter{MaxMatrixCols}{10}
+\usepackage{tikz}
+\usetikzlibrary{matrix}
+\usepackage{endnotes}
+\usepackage{soul}
+\usepackage{marginnote}
+%\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+%\newtheorem{remark}{Remark}
+%\newtheorem{error}{\color{Red} Error}
+\newtheorem{corollary}{Corollary}
+\newtheorem{proposition}{Proposition}
+\newtheorem{definition}{Definition}
+\newcommand{\mathsym}[1]{}
+\newcommand{\unicode}[1]{}
+\newcommand{\dsum} {\displaystyle\sum}
+\hyphenation{op-tical net-works semi-conduc-tor}
+\usepackage{pdfpages}
+\usepackage{enumitem}
+\usepackage{multicol}
+
+\headsep = 5pt
+\textheight = 730pt
+%\headsep = 8pt %25pt
+%\textheight = 720pt %674pt
+%\usepackage{geometry}
+
+\bibliographystyle{unsrt}
+
+\usepackage{float}
+
+ \usepackage{xcolor}
+ 
+\usepackage[framemethod=TikZ]{mdframed}
+%%%%%%%FRAME%%%%%%%%%%%
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage{framed}
+    % \BeforeBeginEnvironment{mdframed}{\begin{minipage}{\linewidth}}
+     %\AfterEndEnvironment{mdframed}{\end{minipage}\par}
+
+
+%	%\mdfsetup{%
+%	%skipabove=20pt,
+%	nobreak=true,
+%	   middlelinecolor=black,
+%	   middlelinewidth=1pt,
+%	   backgroundcolor=purple!10,
+%	   roundcorner=1pt}
+
+\mdfsetup{%
+	outerlinewidth=1,skipabove=20pt,backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{result}{Result}
+
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{theorem}{Theorem}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=gray!10, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{remark}{Remark}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=pink!30, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{quaestio}{Quaestio}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=5pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{background}{Background}
+
+%TRYING TO INCLUDE Ppls IN TOC
+\usepackage{hyperref}
+
+
+\begin{document}
+\title{\color{Brown}  Guidelines for Coronavirus in Business Settings
+\vspace{-0.35ex}}
+\author{Chen Shen and Yaneer Bar-Yam \\ New England Complex Systems Institute \\
+ \today 
+  \vspace{-8ex} \\ 
+%\bigskip
+\textbf{}
+ }
+    
+\maketitle
+
+%\vspace{-1ex}
+%\flushbottom % Makes all text pages the same height
+
+%\maketitle % Print the title and abstract box
+
+%\tableofcontents % Print the contents section
+
+\thispagestyle{empty} % Removes page numbering from the first page
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+%\section*{Introduction} % The \section*{} command stops section numbering
+
+%\addcontentsline{toc}{section}{\hspace*{-\tocsep}Introduction} % Adds this section to the table of contents with negative horizontal space equal to the indent for the numbered sections
+
+%\tableofcontents 
+%\section{ Introduction}
+
+%\section*{Overview}
+
+
+\begin{multicols}{2}
+
+\section*{Executive Summary}
+
+The Coronavirus COVID-19 is a rapidly transmitting disease that evolves in 20\% of cases to require extended hospitalizations and results in 2\% deaths, with risks increasing rapidly for those over 50 years old. It can transmit even with mild symptoms (coughing, sneezing or elevated temperature) and perhaps before symptoms appear. Reducing the likelihood of transmission requires everyone to reduce their likelihood of contact not only so they aren't infected but also so that they don't transmit the disease to others. Both the direct effects on employees, and the impacts on social disruption affect business viability.
+
+Businesses with a culture of interactions within the organization and with customers and suppliers are at great risk for contracting the disease. Supply chains can and have been disrupted. Businesses are also linked to the communities in which they are located for services. Infections in the physical neighborhood of a business location and in the neighborhoods of employees can severely disrupt the ability to conduct business. Considering a business as either being infected or not is a helpful way to think about its risk. Once an infection is present in one employee the risk to the organization increases dramatically.
+
+Actions to be taken by a business depend on both the level of local risk and the financial impacts of performing interventions to mitigate risks. It is important to be aware of the local color coding of a zone for a particular business office or location. Green zones have no active transmission but may have a few cases that are imported from other zones. Yellow zones have a few cases of local transmission, Orange Zones have either a few clusters of cases or are adjacent to Red zones, and Red Zones have sustained community transmission.
+
+People are connected by an invisible transmission network whose links are the physical contacts between individuals, the breathing of common air that can contain particles that are coughed, sneezed or even just breathed out and in, as well as between individuals and physical objects that can carry viral particles deposited on them and subsequently touched by others. This transmission network is operating all the time as we engage in normal activities. It includes both workplace/professional and personal contacts with family, friends and community members. How the network is connected among individuals determines the risk that an individual or an organization will contract the disease and transmit it to others.
+
+Aggressive and bold actions are required to reduce transmission by pruning the invisible network, to reduce vulnerability and risk for individual and the organization, but also to "get ahead" of the outbreak so that it is stopped. Businesses have to evaluate the extent to which each action is disruptive to the business, and this should inform actions will be taken at specific risk levels. Thus, for example, in Green Zones some actions may be taken, while others may be taken in Yellow, Orange or Red Zones.
+
+It is imperative to take actions that appear more than necessary at a particular time as a more dramatic reduction in the invisible network of transmission reduces risks to individuals and to the entire organization. Where actions taken don't get ahead of the risk, exponential growth of a few cases results in a need for much greater actions. The rapid growth makes it extremely difficult to react at the time an outbreak is spreading. Early action in a limited area of an outbreak will make it unnecessary to take more severe actions in a larger area. Early extraordinary action will prevent the need for longer term action that will ultimately be more disruptive and costly. An ounce of prevention is worth much more than a pound of cure for an exponentially growing process.
+
+With this in mind, we present a summary of actions that businesses can take to reduce risks to everyone associated with a business and the business itself. Making essential changes may involve not just changes in individual behavior but in how business is done. 
+
+\section*{General}
+\begin{itemize}
+    \item Promote understanding among employees and their families of Coronavirus transmission and prevention.
+    \item Develop customized organization policies to reduce transmission and arrange for meticulous implementation.
+    \item Ensure employees know that when they have even mild symptoms they should not be at work locations or in-person meetings and they will not be penalized for sick days
+    \item Ensure employees have appropriate health insurance policies so that they will not be afraid to seek out care when they are have symptoms, even mild ones. 
+    \item Engage with local medical facilities to coordinate early rapid testing of employees for Coronavirus
+\end{itemize}
+
+\section*{Meetings, Travel and Visitors}
+\begin{itemize}
+    \item Replace in-person meetings with virtual
+    \item Arrange for workers to work from home where possible
+    \item Restrict travel to higher risk Zones (Red, Orange, and even Yellow)
+    \item Eliminate non-essential travel
+    \item Change ways of doing business to make seemingly essential travel unnecessary.
+    \item Limit visitors and set policies to inquire and rule out visitors based upon their residential Zone status and business Coronavirus prevention policies. Check visitor symptoms upon arrival. 
+\end{itemize}
+   
+\section*{Workplaces}
+\begin{itemize}
+    \item Promote flexible work hours, staggered hours, and shifts to decrease density in the workplace. The density should be reduced to less than 50 \% capacity at a given time
+    \item Employers should ask employees returning from places with confirmed cases, or having uncertain contacts during travel, to self-quarantine for 14 days before coming to the office. Employers should keep close track of their health condition, and report and seek medical care.
+    \item Measure body temperatures of employees daily and provide them with masks where proximity with others cannot be avoided \footnote{The use of masks is debated, we note that: (1) Any individual who has even mild symptoms should avoid contact with others and should wear a mask while in necessary public or private contact with others. (2) Wearing a mask should be accepted in public settings to prevent those who are sick from hesitating to or feeling stigmatized by wearing a mask. (3) While masks do not guarantee safety for a healthy individual and their availability may be limited because of higher priority need in medical settings, using masks where proximity to others who may be infected can't be avoided dramatically reduces the risk of infection. (4) For high risk individuals (over 50 or with preexisting health conditions) and even for low risk individuals the consequences of being infected the advantage of using a mask overrides its limitations in areas of heightened risk. }
+    \item Arrange employees to avoid clustering in elevators. Elevators should not take more than half of their carrying capacity
+    \item Make sure each employee's working space is separated by at least 3 ft, and each individual working space should be at least 25 square feet. For offices with large numbers of people, these minimum guidelines should be further increased
+    \item Disinfect public areas, locales with heavy traffic, surfaces frequently touched
+    \item If A/C must be used, disable re-circulation of internal air. Weekly clean/disinfect/replace key components and filters.
+    \item Scatter dining, keep 3 feet distance while dining and avoid sitting face-to-face. Separate utensils and frequently disinfect. Cafeteria staff must be frequently checked for health
+    \item Consider how employees get to work locations and develop recommendations including avoiding public transportation, or careful hygiene including avoiding touching surfaces, hand washing and wearing masks in areas of increased risk
+    \item The responsibilities of ensuring workplace policies on Coronavirus safety should be clear and accountable
+\end{itemize}
+
+\section*{Retail and Hospitality}
+\begin{itemize}
+    \item High contact industries may be severely disrupted. Early and effective interventions may mitigate but will not eliminate the risk unless they are society wide
+    \item The importance of making sure individuals with even mild cold symptoms from work involving contact with others cannot be overemphasized.
+    \item No-contact methods for doing business should be developed and implemented including:
+        \item Walk up window pickup and drop off service including ensuring adequate spacing in lines
+        \item Drive by service
+        \item No-contact home delivery
+    
+\end{itemize}
+
+
+\end{multicols}
+
+\vspace{2ex}
+
+
+
+
+
+
+
+% \bibliography{MyCollection.bib}
+\bibliography{references.bib}
+
+\end{document}

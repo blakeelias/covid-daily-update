@@ -1,0 +1,69 @@
+Country,Level,Total cases,New cases,Total Deaths,New Deaths,Active cases,Total recovered,Critical
+China,4,"79,828",+577,"2,870",+35,"34,844","42,114","7,365"
+S. Korea,4,"3,736",+586,21,+4,"3,685",30,10
+Italy,4,"1,694",+566,34,+5,"1,577",83,140
+Iran,4,978,+385,54,+11,749,175,
+Diamond Princess,,705,,7,+1,688,10,36
+Japan,4,256,+15,6,+1,218,32,19
+France,3,130,+30,2,,116,12,9
+Germany,3,129,+50,,,113,16,2
+Singapore,2,106,+4,,,32,74,7
+Hong Kong,3,100,+5,2,,62,36,6
+Spain,3,79,+21,,,77,2,3
+USA,1,73,+5,1,,63,9,3
+Bahrain,2,47,+6,,,47,,
+Kuwait,2,46,+1,,,46,,
+Thailand,2,42,,1,+1,11,30,1
+Taiwan,2,40,+1,1,,27,12,1
+U.K.,2,36,+13,,,28,8,
+Malaysia,2,29,+4,,,7,22,
+Australia,2,27,+2,1,+1,11,15,
+U.A.E.,2,21,,,,16,5,2
+Canada,2,20,,,,16,4,
+Iraq,2,19,+6,,,19,,
+Norway,2,19,+4,,,19,,
+Switzerland,2,19,,,,18,1,
+Vietnam,2,16,,,,0,16,
+Austria,2,14,+4,,,14,,
+Sweden,2,14,+1,,,14,,
+Macao,1,10,,,,4,6,
+Lebanon,2,10,+3,,,10,,
+Netherlands,2,10,+3,,,10,,1
+Croatia,2,7,+1,,,7,,
+Greece,2,7,,,,7,,
+Israel,2,7,,,,6,1,
+Finland,2,6,+3,,,5,1,
+Oman,2,6,,,,5,1,
+Mexico,2,5,+1,,,5,,
+Pakistan,1,4,,,,4,,
+Philippines,1,3,,1,,0,2,
+Azerbaijan,1,3,,,,3,,
+Czechia,1,3,+3,,,3,,
+Denmark,1,3,,,,3,,
+Georgia,1,3,,,,3,,
+India,1,3,,,,0,3,
+Qatar,1,3,+2,,,3,,
+Romania,1,3,,,,2,1,
+Algeria,1,2,+1,,,2,,
+Belgium,1,2,+1,,,1,1,
+Brazil,1,2,,,,2,,
+Iceland,1,2,+1,,,2,,
+Russia,1,2,,,,0,2,
+Afghanistan,1,1,,,,1,,
+Belarus,1,1,,,,1,,
+Cambodia,1,1,,,,0,1,
+Dominican Republic,1,1,+1,,,1,,
+Ecuador,1,1,,,,1,,1
+Egypt,1,1,,,,0,1,
+Estonia,1,1,,,,1,,
+Ireland,1,1,,,,1,,
+Lithuania,1,1,,,,1,,
+Luxembourg,1,1,,,,1,,
+North Macedonia,1,1,,,,1,,
+Monaco,1,1,,,,1,,
+Nepal,1,1,,,,0,1,
+New Zealand,1,1,,,,1,,
+Nigeria,1,1,,,,1,,
+San Marino,1,1,,,,1,,1
+Sri Lanka,1,1,,,,0,1,
+Armenia,1,1,+1,,,1,,

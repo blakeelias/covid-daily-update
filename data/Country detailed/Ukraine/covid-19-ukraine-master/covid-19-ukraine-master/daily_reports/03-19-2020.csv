@@ -1,0 +1,8 @@
+FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths,Recovered,Active,Confirmed_delta,Deaths_delta,Recovered_delta,Active_delta
+4913,,Dnipropetrovska,Ukraine,2020-05-17 16:52:25,48.301142,34.844169,2,0,0,2,2,0,0,2
+4912,,Donetska,Ukraine,2020-05-17 16:52:25,48.047635,37.674086,1,0,0,1,0,0,0,0
+4914,,Zhytomyrskа,Ukraine,2020-05-17 16:52:25,50.639546,28.475602,2,1,0,1,1,0,0,1
+4892,,Ivano-Frankivska,Ukraine,2020-05-17 16:52:25,48.701932,24.619344,1,1,0,0,1,1,0,0
+4910,,Kyivska,Ukraine,2020-05-17 16:52:25,50.299214,30.455333,2,0,0,2,0,0,0,0
+4909,Kyiv,Kyivska,Ukraine,2020-05-17 16:52:25,50.448668,30.547911,3,0,0,3,1,0,0,1
+4905,,Chernivetska,Ukraine,2020-05-17 16:52:25,48.268275,25.976996,15,1,0,14,5,0,0,5

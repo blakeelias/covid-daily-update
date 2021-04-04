@@ -1,0 +1,191 @@
+%\documentclass[twocolumn,journal]{IEEEtran}
+\documentclass[onecolumn,journal]{IEEEtran}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+%\usepackage[english]{babel}
+\usepackage{supertabular}
+\usepackage{longtable}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{bbm}
+%\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{breqn}
+\usepackage{fixltx2e}
+\usepackage{capt-of}
+%\usepackage{mdframed}
+\setcounter{MaxMatrixCols}{10}
+\usepackage{tikz}
+\usetikzlibrary{matrix}
+\usepackage{endnotes}
+\usepackage{soul}
+\usepackage{marginnote}
+%\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+%\newtheorem{remark}{Remark}
+%\newtheorem{error}{\color{Red} Error}
+\newtheorem{corollary}{Corollary}
+\newtheorem{proposition}{Proposition}
+\newtheorem{definition}{Definition}
+\newcommand{\mathsym}[1]{}
+\newcommand{\unicode}[1]{}
+\newcommand{\dsum} {\displaystyle\sum}
+\hyphenation{op-tical net-works semi-conduc-tor}
+\usepackage{pdfpages}
+\usepackage{enumitem}
+\usepackage{multicol}
+
+\headsep = 5pt
+\textheight = 730pt
+%\headsep = 8pt %25pt
+%\textheight = 720pt %674pt
+%\usepackage{geometry}
+
+\bibliographystyle{unsrt}
+
+\usepackage{float}
+
+ \usepackage{xcolor}
+ 
+\usepackage[framemethod=TikZ]{mdframed}
+%%%%%%%FRAME%%%%%%%%%%%
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage{framed}
+    % \BeforeBeginEnvironment{mdframed}{\begin{minipage}{\linewidth}}
+     %\AfterEndEnvironment{mdframed}{\end{minipage}\par}
+
+
+%	%\mdfsetup{%
+%	%skipabove=20pt,
+%	nobreak=true,
+%	   middlelinecolor=black,
+%	   middlelinewidth=1pt,
+%	   backgroundcolor=purple!10,
+%	   roundcorner=1pt}
+
+\mdfsetup{%
+	outerlinewidth=1,skipabove=20pt,backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{result}{Result}
+
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{theorem}{Theorem}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=gray!10, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{remark}{Remark}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=pink!30, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{quaestio}{Quaestio}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=5pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{background}{Background}
+
+%TRYING TO INCLUDE Ppls IN TOC
+\usepackage{hyperref}
+
+
+\begin{document}
+\title{\color{Brown} Every Day Life and COVID 19\\
+\vspace{-0.35ex}}
+
+% \author{Chen Shen and Yaneer Bar-Yam \\ New England Complex Systems Institute \\
+%  \today 
+%   \vspace{-14ex} \\ 
+
+   
+% \bigskip
+% \bigskip
+
+% \textbf{}
+%  }
+    
+\maketitle
+
+
+\flushbottom % Makes all text pages the same height
+
+%\maketitle % Print the title and abstract box
+
+%\tableofcontents % Print the contents section
+
+\thispagestyle{empty} % Removes page numbering from the first page
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+%\section*{Introduction} % The \section*{} command stops section numbering
+
+%\addcontentsline{toc}{section}{\hspace*{-\tocsep}Introduction} % Adds this section to the table of contents with negative horizontal space equal to the indent for the numbered sections
+
+%\tableofcontents 
+%\section{ Introduction}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+\begin{multicols}{2}
+
+
+
+Over the last few weeks, our lives have changed in many and profound ways. A pick up basketball game, a trip to the grocery store,  even walking through the lobby of our apartment building to the elevator are all fraught with potential dangers  - the possibility that the forward on the other team, the last customer to squeeze the same orange, or to push the elevator button are unknowingly COVID-19 positive and passing the virus onto us with everything they touch, every breath they make in the spaces we share, even momentarily. While close contacts dominate transmission others should be avoided as well. 
+
+Jogging or biking and FaceTime get togethers with friends are poor substitutes for that basketball game, they’ll do in a pinch.  But we all have to eat and, even when we are sheltering in place, we sometimes have to leave our apartments. What to do?
+We are in a time of great fear, danger, uncertainty. Here are a few guidelines for making our activities of daily living safer.
+
+\section*{Apartment Buildings}
+Homes with shared entrances expose us to everyone else in our building, in the common areas, entryways, hallways, laundry rooms, sometimes even the air we breathe through a common ventilation system. 
+\begin{itemize}
+    \item Spend as little time as possible in entryways and common areas, even when they are not crowded. The coronavirus sticks around on surfaces and in the air. 
+    \item Assume any surface---your mailbox, the doorknob, elevator buttons---is contaminated and can transmit COVID-19. Put something disposable between you and the surface, gloves, a piece of paper, be creative.
+    \item When possible wear a mask or scarf when walking in shared spaces. Reusable, washable masks are available as are simple pattern and instructions to make your own. 
+    \item Once you get to your apartment, wash your hands well before touching anything else (with soap or hand sanitizer, for at least 20 seconds). Carry hand sanitizer with you to clean your hands when you are going out. 
+    \item If coming back home with grocery bags or packages/parcels, open and organize the stuff and get rid of the packaging, then wash your hands again in the same manner.
+    \item Keep windows in your apartment open when weather allows. A HEPA air purifier in your apartment will help with central ventilation systems. 
+    \item Assume elevators are contaminated, many people per day sharing a small space. Avoid sharing elevators with other people. When possible, use the stairs, it’s great exercise, to boot, though still not as fun as a basketball game. 
+\end{itemize}
+
+\section*{Grocery Shopping/Pharmacy/ Other necessary errands}
+Many grocery stores are now offering a number of ways to keep shopping safe for staff and customers. Find and use the stores in your area that take safety seriously and offer some or all of these things.
+
+\begin{itemize}
+    \item Hand sanitizer and sanitizing wipes at the entrance, throughout the store and at check out for checkers and baggers as well as customers.
+    \item Staff people who remind people to keep safe distance apart. 
+    \item Ordering online to be picked up at curbside, parking lot or home delivery with no contact
+    \item Extended hours to avoid crowding
+    \item Early opening with access limited to seniors and other vulnerable customers.
+    \item Limiting the number of people in the store at any one time.
+    \item Some pharmacies will now mail or deliver your prescriptions 
+\end{itemize}
+In addition, when you are in the store:
+\begin{itemize}
+    \item Plan your trips to the store, so you can go infrequently. 
+    \item Sanitize your cart or place bag or box into the cart.
+    \item Use gloves and/or plastic produce bags to take items from the shelf into your cart. 
+    \item Take items from the back of the shelf, where they are less likely to have been handled by multiple customers. 
+    \item Ask the check out and baggers to wear gloves or use hand sanitizer while checking out your items.
+    \item When you get home, if possible set up an area in your garage, porch or entry area and leave non perishable items for 2-3 days, by which time any virus on the surfaces will not be active. If you have to bring them into your home set up a marked off area for them near the entryway.
+    \item For perishable or urgently needed items, wash them with soap and rinse carefully before putting away. 
+    \item Upon return from any outing with other people, even if you’ve maintained safe distancing, place clothing in a bag for laundry, and shower.
+    \item Reminder: Wash your hands when you are done. 
+
+\end{itemize}
+
+\section*{Packages and mail}
+Coronavirus remains on paper and cardboard for one day, plastic and other materials for 3-4 days. Packages have been handled by many people before they arrive at your home. 
+\begin{itemize}
+    \item If possible, leave the package unopened in  your garage, porch or some similar area for 1-2 days. 
+    \item If it needs to be opened immediately, or you do not have such a space available, wash off the box with disinfectant or wipes before opening. Remove the item or items carefully and discard the outside box. 
+    \item Reminder: Wash your hands when you are done. 
+\end{itemize}
+\end{multicols}
+
+
+	
+% \bibliography{MyCollection.bib}
+
+
+\end{document}

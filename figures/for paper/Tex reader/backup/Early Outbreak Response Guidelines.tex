@@ -1,0 +1,182 @@
+%\documentclass[twocolumn,journal]{IEEEtran}
+\documentclass[onecolumn,journal]{IEEEtran}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+%\usepackage[english]{babel}
+\usepackage{supertabular}
+\usepackage{longtable}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{bbm}
+%\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{breqn}
+\usepackage{fixltx2e}
+\usepackage{capt-of}
+%\usepackage{mdframed}
+\setcounter{MaxMatrixCols}{10}
+\usepackage{tikz}
+\usetikzlibrary{matrix}
+\usepackage{endnotes}
+\usepackage{soul}
+\usepackage{marginnote}
+%\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+%\newtheorem{remark}{Remark}
+%\newtheorem{error}{\color{Red} Error}
+\newtheorem{corollary}{Corollary}
+\newtheorem{proposition}{Proposition}
+\newtheorem{definition}{Definition}
+\newcommand{\mathsym}[1]{}
+\newcommand{\unicode}[1]{}
+\newcommand{\dsum} {\displaystyle\sum}
+\hyphenation{op-tical net-works semi-conduc-tor}
+\usepackage{pdfpages}
+\usepackage{enumitem}
+\usepackage{multicol}
+
+\headsep = 5pt
+\textheight = 730pt
+%\headsep = 8pt %25pt
+%\textheight = 720pt %674pt
+%\usepackage{geometry}
+
+\bibliographystyle{unsrt}
+
+\usepackage{float}
+
+ \usepackage{xcolor}
+ 
+\usepackage[framemethod=TikZ]{mdframed}
+%%%%%%%FRAME%%%%%%%%%%%
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage{framed}
+    % \BeforeBeginEnvironment{mdframed}{\begin{minipage}{\linewidth}}
+     %\AfterEndEnvironment{mdframed}{\end{minipage}\par}
+
+
+%	%\mdfsetup{%
+%	%skipabove=20pt,
+%	nobreak=true,
+%	   middlelinecolor=black,
+%	   middlelinewidth=1pt,
+%	   backgroundcolor=purple!10,
+%	   roundcorner=1pt}
+
+\mdfsetup{%
+	outerlinewidth=1,skipabove=20pt,backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{result}{Result}
+
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{theorem}{Theorem}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=gray!10, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{remark}{Remark}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=pink!30, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{quaestio}{Quaestio}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=5pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{background}{Background}
+
+%TRYING TO INCLUDE Ppls IN TOC
+\usepackage{hyperref}
+
+
+\begin{document}
+\title{\color{Brown} Early Outbreak Response Guidelines\\
+\vspace{-0.35ex}}
+\author{Chen Shen and Yaneer Bar-Yam \\ New England Complex Systems Institute \\
+ \today 
+  \vspace{-14ex} \\ 
+
+   
+\bigskip
+\bigskip
+
+\textbf{}
+ }
+    
+\maketitle
+
+
+\flushbottom % Makes all text pages the same height
+
+%\maketitle % Print the title and abstract box
+
+%\tableofcontents % Print the contents section
+
+\thispagestyle{empty} % Removes page numbering from the first page
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+%\section*{Introduction} % The \section*{} command stops section numbering
+
+%\addcontentsline{toc}{section}{\hspace*{-\tocsep}Introduction} % Adds this section to the table of contents with negative horizontal space equal to the indent for the numbered sections
+
+%\tableofcontents 
+%\section{ Introduction}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+
+
+
+\begin{multicols}{2}
+The Coronavirus outbreak originating in Wuhan has about 20\% severe cases and 2\% deaths. A typical incubation period is 3 days but it may extend to 14 days, and reports exist of 24 and 27 days. It is highly contagious with an increase from day to day of 50\% in new cases (infection rate R0 of about 3-4) unless extraordinary interventions are made. If it becomes a widespread pandemic or endemic it will change the lives of everyone in the world. It is imperative to act to confine and stop the outbreak and not accept its spread.
+
+\section*{Guidelines for grocery stores}
+
+Below is a list of various actions grocery stores can take to prevent the spread of the Coronavirus. For stores in areas of heightened risk, additional precautions may be necessary.
+
+\begin{itemize}
+    \item Grocery store workers who suspect that they might have Coronavirus, or exhibit flu-like symptoms, should not go to work and should self-quarantine for at least 14 days.
+    
+    \item It is important that crowds be as spread out as possible. This means reducing the number of customers who are allowed in the store at a time. The maximum occupancy should depend on the physical size of the store, as well as the total number of customers that the store needs to provide for on a daily basis.
+    
+    \item If customers have to wait in line, the lines should form outside in open air, if possible, and the spacing between customers in line should be at least 2 meters, or 6 ft. Stores can place markings on the ground to help customers understand where to line-up.
+    
+    \item Customers should be encouraged to shop online and have groceries delivered, when possible.
+    
+    \item External body temperatures of the workers, as well as the customers, should be measured, if possible. If a person shows a high temperature (101 F, or 38 C), they should not be allowed into the grocery store. If possible, they can ask others to shop for them.
+    
+    \item When possible, stores should maximize their total amount of space by expanding to other areas. For example, a tent in a parking lot is a great solution. Expanding to adjacent store space is also suggested, when possible.
+    
+    \item Stores should work with their communities in order to make sure store visits are well spread out in time. This means that there should be a roughly constant flow of people visiting the store for any given time.
+    
+    \item Customers should be reminded that they should not buy more supplies than necessary. We suggest that each individual has two weeks worth of food and goods at any point in time.
+    
+    \item Stores should have hand sanitizer at the entrances and exits of the store, as well as several locations within the store. These sanitizing stations should be accompanied by signs which remind the customers to use the sanitizer, touch as few things as possible in the store, and to avoid touching their faces.
+    
+    \item Store workers should minimize their physical interactions with customers as much as possible, and they should also make sure customers keep space between each other.
+    
+    \item For grocery stores which serve a small number of people, the workers should have the customers wait outside, have their orders taken, and have the groceries handed off outside. While this is the ideal solution, we understand that this is not possible for most stores because it will take far too much time.
+    
+    \item Store workers which are responsible for stocking the shelves should take extreme care in making sure everything is clean and sanitary. Since they will be touching almost all of the goods, they could potentially spread the virus throughout the community.
+    
+    \item It is highly suggested that store workers and customers wear face masks throughout the day, if face masks are available. Wearing plastic gloves is also suggested, but it should be noted that one should avoid touching their face even when wearing the plastic gloves, and the gloves should be thrown away after touching a surface which is suspected to be compromised by the virus.
+    
+    \item Store workers should make sure to thoroughly clean themselves and all surfaces in the store after every shift.
+    
+    \item Cleaning throughout the store should be performed constantly, if possible. If this is not possible, the store managers should set a cleaning schedule which is as frequent as possible. At minimum, store workers should clean every shopping cart or basket after every use.
+    
+    \item Store managers should have daily meetings which address any issues of cleanliness or interaction which have occurred and provide solutions to be implemented in the future.
+    
+    \item Customers, store workers, and store managers should be open to communicating with each other to help improve the shopping experience, with an emphasis on the safety of the community.
+\end{itemize}
+
+\end{multicols}
+		
+
+	
+% \bibliography{MyCollection.bib}
+
+
+\end{document}

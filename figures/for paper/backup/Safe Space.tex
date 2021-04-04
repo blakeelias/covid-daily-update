@@ -1,0 +1,192 @@
+%\documentclass[twocolumn,journal]{IEEEtran}
+\documentclass[onecolumn,journal]{IEEEtran}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+%\usepackage[english]{babel}
+\usepackage{supertabular}
+\usepackage{longtable}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{bbm}
+%\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{breqn}
+\usepackage{fixltx2e}
+\usepackage{capt-of}
+%\usepackage{mdframed}
+\setcounter{MaxMatrixCols}{10}
+\usepackage{tikz}
+\usetikzlibrary{matrix}
+\usepackage{endnotes}
+\usepackage{soul}
+\usepackage{marginnote}
+%\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+%\newtheorem{remark}{Remark}
+%\newtheorem{error}{\color{Red} Error}
+\newtheorem{corollary}{Corollary}
+\newtheorem{proposition}{Proposition}
+\newtheorem{definition}{Definition}
+\newcommand{\mathsym}[1]{}
+\newcommand{\unicode}[1]{}
+\newcommand{\dsum} {\displaystyle\sum}
+\hyphenation{op-tical net-works semi-conduc-tor}
+\usepackage{pdfpages}
+\usepackage{enumitem}
+\usepackage{multicol}
+
+\headsep = 5pt
+\textheight = 730pt
+%\headsep = 8pt %25pt
+%\textheight = 720pt %674pt
+%\usepackage{geometry}
+
+\bibliographystyle{unsrt}
+
+\usepackage{float}
+
+ \usepackage{xcolor}
+ 
+\usepackage[framemethod=TikZ]{mdframed}
+%%%%%%%FRAME%%%%%%%%%%%
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage{framed}
+    % \BeforeBeginEnvironment{mdframed}{\begin{minipage}{\linewidth}}
+     %\AfterEndEnvironment{mdframed}{\end{minipage}\par}
+
+
+%	%\mdfsetup{%
+%	%skipabove=20pt,
+%	nobreak=true,
+%	   middlelinecolor=black,
+%	   middlelinewidth=1pt,
+%	   backgroundcolor=purple!10,
+%	   roundcorner=1pt}
+
+\mdfsetup{%
+	outerlinewidth=1,skipabove=20pt,backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{result}{Result}
+
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{theorem}{Theorem}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=gray!10, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{remark}{Remark}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=pink!30, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{quaestio}{Quaestio}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=5pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{background}{Background}
+
+%TRYING TO INCLUDE Ppls IN TOC
+\usepackage{hyperref}
+
+
+\begin{document}
+\title{\color{Brown} A Family Guide with Thoughts on Safe Spaces \\
+\vspace{-0.35ex}}
+\author{Chen Shen and Yaneer Bar-Yam \\ New England Complex Systems Institute \\
+ \today 
+  \vspace{-14ex} \\ 
+
+   
+\bigskip
+\bigskip
+
+\textbf{}
+ }
+    
+\maketitle
+
+
+\flushbottom % Makes all text pages the same height
+
+%\maketitle % Print the title and abstract box
+
+%\tableofcontents % Print the contents section
+
+\thispagestyle{empty} % Removes page numbering from the first page
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+%\section*{Introduction} % The \section*{} command stops section numbering
+
+%\addcontentsline{toc}{section}{\hspace*{-\tocsep}Introduction} % Adds this section to the table of contents with negative horizontal space equal to the indent for the numbered sections
+
+%\tableofcontents 
+%\section{ Introduction}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+
+
+
+\begin{multicols}{2}
+
+
+In areas of heightened risk where government isn't taking adequate action, protecting a family, or group, is challenging. The spread of fire requires a trail of combustibles. Similarly, the contagion of COVID-19 requires a chain of susceptible individuals. The solution is to (1) Reduce contact between the family and others, and provide for essential needs, and as the risk increases (2) Create a Safe Space that protects those who are in it by shared agreement not to be in unprotected physical contact with others or with surfaces that are touched by others. The Safe Space also curbs contagion because those in the safe space don't participate in disease transmission. Members of one safe space can combine with others to carefully expand the safe space or create new ones.
+
+Reducing contact between the family and others:
+
+\begin{itemize}
+\item Carefully read the guide to individuals and share it with family members. Discuss with them how to reduce their contact with others.
+
+\item Shift family gatherings to virtual. The current outbreak will either be defeated or will become widespread. In the former, a few months from now will return to normal.  In the latter, different actions will be needed. 
+
+\item Ensure that you and members of your family have necessary supplies, including prescription medicines.
+
+\item Consider vulnerable members of the family including elderly, but also anybody over 50, and those with chronic health conditions, as to the risk of contact with others. Reduce their contact, provide support that enables them to stay at home and not go into public spaces.
+
+\item Consider temporarily moving individuals who are in collective housing (retirement communities, assisted living facilities, etc.) to more isolated accommodations, including private homes, or small group facilities. 
+
+\item Where it is not possible to reduce contacts, talk with those who are responsible for collective facilities to increase the level of precautions against transmission. 
+
+\item Avoid public gatherings and places including events and restaurants, especially those in confined spaces.
+
+\end{itemize}
+
+Creating Safe Spaces under high risk conditions:
+
+\begin{itemize}
+
+\item The main purpose of a safe space is for a group of people to form a solitary unit that reduces physical contacts to external individuals to a minimum while being able to self-sustain and self-support.
+
+\item Individuals don't have to wait for government-guided, top-down safety actions. In the absence of aggressive, systematic intervention, self-organized bottom-up safe-spaces also help individuals. By progressively scaling up, the safe-zones can slow or even stop local outbreaks.
+
+\item Safe spaces can start from family or group of people sharing a single lodging. Multiple dwellings can be combined, including travel between them (e.g. walking or driving), if safe protocols are established and adhered to. To successfully establish a Safe Space, EVERY participant has to agree to the principles of minimizing external physical contact and adhere to it. There also have to be clear instructions about how to act and cooperate. Members of the same safe-space should be candid about travel history and health conditions, and be responsible for each other's health.
+
+\item In order for individuals to commit to a shared space arrangements may need to be made with work, schools, family and friends. Staying home from work with approval of an employer, or taking a leave of absence, may be necessary.
+
+\item Planning an extended period of time (at least one or more weeks) in a safe space should be done in advance, including obtaining supplies, but while procuring necessities exercise extra caution given the potential exposure to crowds. Survivalist strategies may be helpful in this context. Knowing to plan ahead for necessities is critical as each trip to obtain them involves some risk. 
+
+\item Where possible, arrange for deliveries of items, including food so that trips to the grocery store are limited. Some care must be taken as any item that is delivered had to be handled by someone. Unless there is agreement with the provider to use gloves, washing or disinfecting items is advisable in areas of active transmission. 
+
+\item For essential activities, including shopping, during which some external physical contact is inevitable, members should plan ahead to act efficiently and minimize the duration and extent of contact. Leaving and returning to the safe space involves precautions. Use appropriate personal protection, including gloves or disposable items (paper towels) for grabbing or manipulating items that should not be touched, sanitizer or alcohol for use on hands, and masks. Returning to the space requires washing or disinfection before (preferred) or upon entry.
+
+\item Promote internal communication and mutual care to keep members of the space in positive relationships and mentally healthy. Recognizing that the current emergency requires extraordinary actions and sacrifices is essential. While it may mitigate, it cannot replace the importance of mutual support.
+
+\item The safe space members should obtain information on the actions to be taken in case one or more members show infection symptoms. The actions vary based on countries/states/locations, and they're also dynamic. Members should inform everyone in the group of the latest contingency plan and contact info. In case any member show typical symptoms, others should act quickly to help him/her get tested and preform precautionary isolation before results are obtained.
+
+\item As an outbreak progresses hard decisions will inevitably arise about whether to exit the safe space in order to help family or friends that are not in a safe space. Individuals should be prepared to make such decisions. 
+
+\item At a time of high risk, there will be actions taken by mistake that may compromise safety. To avoid over reaction to an individual event, it is important to realize that any single act has a low probability of harm. However, when multiple actions are taken the risk increases dramatically. Ensuring that lessons are learned is more important than accusation, blame or punishment. 
+
+
+\end{itemize}
+
+\end{multicols}
+		
+
+	
+% \bibliography{MyCollection.bib}
+
+
+\end{document}

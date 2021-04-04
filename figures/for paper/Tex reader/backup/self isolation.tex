@@ -1,0 +1,215 @@
+%\documentclass[twocolumn,journal]{IEEEtran}
+\documentclass[onecolumn,journal]{IEEEtran}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+%\usepackage[english]{babel}
+\usepackage{supertabular}
+\usepackage{longtable}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{bbm}
+%\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{breqn}
+\usepackage{fixltx2e}
+\usepackage{capt-of}
+%\usepackage{mdframed}
+\setcounter{MaxMatrixCols}{10}
+\usepackage{tikz}
+\usetikzlibrary{matrix}
+\usepackage{endnotes}
+\usepackage{soul}
+\usepackage{marginnote}
+%\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+%\newtheorem{remark}{Remark}
+%\newtheorem{error}{\color{Red} Error}
+\newtheorem{corollary}{Corollary}
+\newtheorem{proposition}{Proposition}
+\newtheorem{definition}{Definition}
+\newcommand{\mathsym}[1]{}
+\newcommand{\unicode}[1]{}
+\newcommand{\dsum} {\displaystyle\sum}
+\hyphenation{op-tical net-works semi-conduc-tor}
+\usepackage{pdfpages}
+\usepackage{enumitem}
+\usepackage{multicol}
+
+\headsep = 5pt
+\textheight = 730pt
+%\headsep = 8pt %25pt
+%\textheight = 720pt %674pt
+%\usepackage{geometry}
+
+\bibliographystyle{unsrt}
+
+\usepackage{float}
+
+ \usepackage{xcolor}
+ 
+\usepackage[framemethod=TikZ]{mdframed}
+%%%%%%%FRAME%%%%%%%%%%%
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage{framed}
+    % \BeforeBeginEnvironment{mdframed}{\begin{minipage}{\linewidth}}
+     %\AfterEndEnvironment{mdframed}{\end{minipage}\par}
+
+
+%	%\mdfsetup{%
+%	%skipabove=20pt,
+%	nobreak=true,
+%	   middlelinecolor=black,
+%	   middlelinewidth=1pt,
+%	   backgroundcolor=purple!10,
+%	   roundcorner=1pt}
+
+\mdfsetup{%
+	outerlinewidth=1,skipabove=20pt,backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{result}{Result}
+
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{theorem}{Theorem}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=gray!10, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{remark}{Remark}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=pink!30, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{quaestio}{Quaestio}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=5pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{background}{Background}
+
+%TRYING TO INCLUDE Ppls IN TOC
+\usepackage{hyperref}
+
+
+\begin{document}
+\title{\color{Brown} Guidelines for Self-Isolation \\
+\vspace{-0.35ex}}
+\author{Chen Shen and Yaneer Bar-Yam \\ New England Complex Systems Institute \\
+ \today 
+  \vspace{-14ex} \\ 
+
+   
+\bigskip
+\bigskip
+
+\textbf{}
+ }
+    
+\maketitle
+
+
+\flushbottom % Makes all text pages the same height
+
+%\maketitle % Print the title and abstract box
+
+%\tableofcontents % Print the contents section
+
+\thispagestyle{empty} % Removes page numbering from the first page
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+%\section*{Introduction} % The \section*{} command stops section numbering
+
+%\addcontentsline{toc}{section}{\hspace*{-\tocsep}Introduction} % Adds this section to the table of contents with negative horizontal space equal to the indent for the numbered sections
+
+%\tableofcontents 
+%\section{ Introduction}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+
+
+
+\begin{multicols}{2}
+This guideline is for individuals who have tested positive for COVID-19 but have mild or no symptoms. Mild symptoms include low fever, mild fatigue, coughing, but without pneumonia symptoms and with no accompanying chronic illness. 
+
+Where local medical resources are strained and cannot hospitalize individuals with moderate or even worse symptoms, this document can also provide guidance. Please keep in mind that advice provided here is designed for mild/no symptom individuals.
+
+Once symptoms develop, including difficulties in breathing, high fever, seek medical care immediately.
+
+\section*{General}
+\begin{itemize}
+
+\item Recognize that most cases resolve with a full return to health. The quarantine is a temporary necessity, typically for 14 days. 
+
+\item \textbf{It is strongly advised to live alone, at least in a separate room.} 
+
+\end{itemize}
+
+\section*{If you are living alone}
+\begin{itemize}
+
+\item Keep close track of your health condition. Keep a health log with clear handwriting in an obvious place. The log should include: record date \& time, heart rate, blood oxygen saturation (taken by oximeter), any symptoms, meals, medicine taken and dosage.
+
+\item Keep abreast of local information on what to do when symptoms progress. Have the contact in speed dial. Set up check-in (at least daily) with a family member/friends. Inform them of all the emergency contact information, as well as any information needed to access your home.
+
+\item Take care of your health with sufficient hydration, eating a balanced diet, and keeping regular sleep hours. Maintain or develop fun or educational activities including reading, solitary or online games, or other online interactions. 
+
+\item Wash your hands frequently, with soap / hand sanitizer for no less than 20 seconds each time.
+
+\item Regular ventilation of the living area is crucial. 
+
+\item Wash bed sheet, towels and clothing frequently. Separate yours from others.
+
+\item Avoid contact with your pet and other animals. If not possible, ensure you wear mask and wash hands before/after interacting with pets.
+
+\item Isolate yourself from any physical contact with others, but stay in touch with family and friends by text, phone, video chats, or other electronic means. This is important for many reasons including maintaining a positive outlook. 
+
+\item If news about the development of the outbreak gives you anxieties, try not to focus too much on it to avoid further mental health burden, which contradicts the purpose of self-isolation
+
+\item Make a relatively consistent daily routine. If possible, keep a moderate or even small amount of physical exercises. 
+
+\item Coordinate with family friends, or local authorities the logistics of delivery of essentials including daily meals. Keep track of all essentials and be aware of the time each will run short, inform and prepare in advance. No-contact drop off is best. A mask and gloves are required whenever interacting with delivery persons. 
+
+\item Consult with local authorities and health care providers the duration and condition to lift the self-isolation. Exercise caution even after the self-isolation.
+
+\item In suburban or rural areas where exiting and entering the home is possible without contact with others, or shared spaces, taking walks in isolation from others can be done, but don't forget that you are in quarantine and should not interact with others or go into spaces where others are likely to be either when you are there or later. 
+
+\end{itemize}
+
+\section*{If you share lodging with someone else}
+\begin{itemize}
+\item The people who share lodging with you are considered "close contacts" of patients, and should follow local guideline regarding close contacts, including avoiding unnecessary contact with others.
+
+\item The other residents in the lodging should avoid having visitors, especially vulnerable people (senior, or with chronic disease). Any visitor should be informed about the presence of a quarantined individual.
+
+\item Clearly define, if possible with visual aids, different zones in the residence. The bedroom and facilities used by the patient is considered a Red Zone. Areas connected with the Red Zone, for example the living room, are considered Yellow Zones. Other separated rooms are Green Zones.
+
+\item The patient should strictly follow sneeze etiquette, sneezing into disposable tissues that are safely discarded, or into clothing (e.g. sleeve) that is soon washed. 
+
+\item Set up communication mechanism in the household so the patient can inform the other residences when he/she has to leave the their room. 
+
+\item The patient should disinfect red zones regularly. Other cohabitants disinfect the yellow zones, and preferably green zones, regularly. 
+
+\item The patient should limit himself/herself to the Red Zone, minimizing entry into yellow zone. Completely avoid green zone. Objects in close contact with the patient should also follow this rule. Outside the red zone, the patient should wear gloves and a mask.
+
+\item Possible transmission routes: 
+Shared facilities: kitchen, bathroom, etc.
+Shared household supplies: towel, glasses, utensils, etc.
+Shared food, beverages, etc.
+Surfaces touched: door handle, table surface, remote control, light switches, etc. These should be disinfected at least once a day.
+
+\item Patient should clean after using any shared facility, especially the bathroom. Keep the toilet lid shut when not being used.
+
+\item Patient should have a separate garbage bag/bin for disposing gloves, masks, tissues, etc.
+
+\item If possible, cohabitant should help to deliver take out, packages of the patient to the door, to minimize patient's need to leave the Red Zone.
+\end{itemize}
+
+\end{multicols}
+		
+
+	
+% \bibliography{MyCollection.bib}
+
+
+\end{document}

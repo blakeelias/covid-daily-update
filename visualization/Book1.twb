@@ -1,0 +1,890 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20201.20.0219.0753                               -->
+<workbook original-version='18.1' source-build='2020.1.0 (20201.20.0219.0753)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Intl for color tab' inline='true' name='federated.09w83vj1f62lgc1gklcfn10w5ecj' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Intl for color tab' name='textscan.1ln18qk0hy00vl19uwp3u098sfen'>
+            <connection class='textscan' directory='C:/Users/erixb/OneDrive/NECSI/Project_2019nCov/data' filename='Intl for color tab.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='real' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[Afghanistan]' />
+            <value name='[Albania]' />
+            <value name='[Algeria]' />
+            <value name='[Andorra]' />
+            <value name='[Angola]' />
+            <value name='[Antigua and Barbuda]' />
+            <value name='[Argentina]' />
+            <value name='[Armenia]' />
+            <value name='[Australia]' />
+            <value name='[Austria]' />
+            <value name='[Azerbaijan]' />
+            <value name='[Bahamas]' />
+            <value name='[Bahrain]' />
+            <value name='[Bangladesh]' />
+            <value name='[Barbados]' />
+            <value name='[Belarus]' />
+            <value name='[Belgium]' />
+            <value name='[Benin]' />
+            <value name='[Bhutan]' />
+            <value name='[Bolivia]' />
+            <value name='[Bosnia and Herzegovina]' />
+            <value name='[Brazil]' />
+            <value name='[Brunei Darussalam]' />
+            <value name='[Bulgaria]' />
+            <value name='[Burkina Faso]' />
+            <value name='[Cambodia]' />
+            <value name='[Cameroon]' />
+            <value name='[Canada]' />
+            <value name='[Cape Verde]' />
+            <value name='[Central African Republic]' />
+            <value name='[Chad]' />
+            <value name='[Chile]' />
+            <value name='[China]' />
+            <value name='[Colombia]' />
+            <value name='[Congo]' />
+            <value name='[Costa Rica]' />
+            <value name='[Cote d&apos;Ivoire]' />
+            <value name='[Croatia]' />
+            <value name='[Cuba]' />
+            <value name='[Cyprus]' />
+            <value name='[Czechia]' />
+            <value name='[DRC]' />
+            <value name='[Denmark]' />
+            <value name='[Djibouti]' />
+            <value name='[Dominican Republic]' />
+            <value name='[Ecuador]' />
+            <value name='[Egypt]' />
+            <value name='[El Salvador]' />
+            <value name='[Equatorial Guinea]' />
+            <value name='[Eritrea]' />
+            <value name='[Estonia]' />
+            <value name='[Eswatini]' />
+            <value name='[Ethiopia]' />
+            <value name='[Fiji]' />
+            <value name='[Finland]' />
+            <value name='[France]' />
+            <value name='[Gabon]' />
+            <value name='[Gambia]' />
+            <value name='[Georgia]' />
+            <value name='[Germany]' />
+            <value name='[Ghana]' />
+            <value name='[Greece]' />
+            <value name='[Guatemala]' />
+            <value name='[Guinea]' />
+            <value name='[Guyana]' />
+            <value name='[Haiti]' />
+            <value name='[Holy See]' />
+            <value name='[Honduras]' />
+            <value name='[Hungary]' />
+            <value name='[Iceland]' />
+            <value name='[India]' />
+            <value name='[Indonesia]' />
+            <value name='[Iran]' />
+            <value name='[Iraq]' />
+            <value name='[Ireland]' />
+            <value name='[Israel]' />
+            <value name='[Italy]' />
+            <value name='[Jamaica]' />
+            <value name='[Japan]' />
+            <value name='[Jordan]' />
+            <value name='[Kazakhstan]' />
+            <value name='[Kenya]' />
+            <value name='[Kuwait]' />
+            <value name='[Kyrgyzstan]' />
+            <value name='[Latvia]' />
+            <value name='[Lebanon]' />
+            <value name='[Liberia]' />
+            <value name='[Liechtenstein]' />
+            <value name='[Lithuania]' />
+            <value name='[Luxembourg]' />
+            <value name='[Madagascar]' />
+            <value name='[Malaysia]' />
+            <value name='[Maldives]' />
+            <value name='[Malta]' />
+            <value name='[Mauritania]' />
+            <value name='[Mauritius]' />
+            <value name='[Mexico]' />
+            <value name='[Moldova]' />
+            <value name='[Monaco]' />
+            <value name='[Mongolia]' />
+            <value name='[Montenegro]' />
+            <value name='[Morocco]' />
+            <value name='[Namibia]' />
+            <value name='[Nepal]' />
+            <value name='[Netherlands]' />
+            <value name='[New Zealand]' />
+            <value name='[Nicaragua]' />
+            <value name='[Niger]' />
+            <value name='[Nigeria]' />
+            <value name='[North Macedonia]' />
+            <value name='[Norway]' />
+            <value name='[Oman]' />
+            <value name='[Pakistan]' />
+            <value name='[Panama]' />
+            <value name='[Papua New Guinea]' />
+            <value name='[Paraguay]' />
+            <value name='[Peru]' />
+            <value name='[Philippines]' />
+            <value name='[Poland]' />
+            <value name='[Portugal]' />
+            <value name='[Qatar]' />
+            <value name='[Romania]' />
+            <value name='[Russia]' />
+            <value name='[Rwanda]' />
+            <value name='[Saint Lucia]' />
+            <value name='[Saint Vincent and the Grenadines]' />
+            <value name='[San Marino]' />
+            <value name='[Saudi Arabia]' />
+            <value name='[Senegal]' />
+            <value name='[Serbia]' />
+            <value name='[Seychelles]' />
+            <value name='[Singapore]' />
+            <value name='[Slovakia]' />
+            <value name='[Slovenia]' />
+            <value name='[Somalia]' />
+            <value name='[South Africa]' />
+            <value name='[South Korea]' />
+            <value name='[Spain]' />
+            <value name='[Sri Lanka]' />
+            <value name='[Sudan]' />
+            <value name='[Suriname]' />
+            <value name='[Sweden]' />
+            <value name='[Switzerland]' />
+            <value name='[Tanzania]' />
+            <value name='[Thailand]' />
+            <value name='[Timor-Leste]' />
+            <value name='[Togo]' />
+            <value name='[Trinidad and Tobago]' />
+            <value name='[Tunisia]' />
+            <value name='[Turkey]' />
+            <value name='[UAE]' />
+            <value name='[UK]' />
+            <value name='[US]' />
+            <value name='[Uganda]' />
+            <value name='[Ukraine]' />
+            <value name='[Uruguay]' />
+            <value name='[Uzbekistan]' />
+            <value name='[Venezuela]' />
+            <value name='[Vietnam]' />
+            <value name='[Zambia]' />
+            <value name='[Zimbabew]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[Intl for color tab.csv].[Afghanistan]' />
+              <field name='[Intl for color tab.csv].[Albania]' />
+              <field name='[Intl for color tab.csv].[Algeria]' />
+              <field name='[Intl for color tab.csv].[Andorra]' />
+              <field name='[Intl for color tab.csv].[Angola]' />
+              <field name='[Intl for color tab.csv].[Antigua and Barbuda]' />
+              <field name='[Intl for color tab.csv].[Argentina]' />
+              <field name='[Intl for color tab.csv].[Armenia]' />
+              <field name='[Intl for color tab.csv].[Australia]' />
+              <field name='[Intl for color tab.csv].[Austria]' />
+              <field name='[Intl for color tab.csv].[Azerbaijan]' />
+              <field name='[Intl for color tab.csv].[Bahamas]' />
+              <field name='[Intl for color tab.csv].[Bahrain]' />
+              <field name='[Intl for color tab.csv].[Bangladesh]' />
+              <field name='[Intl for color tab.csv].[Barbados]' />
+              <field name='[Intl for color tab.csv].[Belarus]' />
+              <field name='[Intl for color tab.csv].[Belgium]' />
+              <field name='[Intl for color tab.csv].[Benin]' />
+              <field name='[Intl for color tab.csv].[Bhutan]' />
+              <field name='[Intl for color tab.csv].[Bolivia]' />
+              <field name='[Intl for color tab.csv].[Bosnia and Herzegovina]' />
+              <field name='[Intl for color tab.csv].[Brazil]' />
+              <field name='[Intl for color tab.csv].[Brunei Darussalam]' />
+              <field name='[Intl for color tab.csv].[Bulgaria]' />
+              <field name='[Intl for color tab.csv].[Burkina Faso]' />
+              <field name='[Intl for color tab.csv].[Cambodia]' />
+              <field name='[Intl for color tab.csv].[Cameroon]' />
+              <field name='[Intl for color tab.csv].[Canada]' />
+              <field name='[Intl for color tab.csv].[Cape Verde]' />
+              <field name='[Intl for color tab.csv].[Central African Republic]' />
+              <field name='[Intl for color tab.csv].[Chad]' />
+              <field name='[Intl for color tab.csv].[Chile]' />
+              <field name='[Intl for color tab.csv].[China]' />
+              <field name='[Intl for color tab.csv].[Colombia]' />
+              <field name='[Intl for color tab.csv].[Congo]' />
+              <field name='[Intl for color tab.csv].[Costa Rica]' />
+              <field name='[Intl for color tab.csv].[Cote d&apos;Ivoire]' />
+              <field name='[Intl for color tab.csv].[Croatia]' />
+              <field name='[Intl for color tab.csv].[Cuba]' />
+              <field name='[Intl for color tab.csv].[Cyprus]' />
+              <field name='[Intl for color tab.csv].[Czechia]' />
+              <field name='[Intl for color tab.csv].[DRC]' />
+              <field name='[Intl for color tab.csv].[Denmark]' />
+              <field name='[Intl for color tab.csv].[Djibouti]' />
+              <field name='[Intl for color tab.csv].[Dominican Republic]' />
+              <field name='[Intl for color tab.csv].[Ecuador]' />
+              <field name='[Intl for color tab.csv].[Egypt]' />
+              <field name='[Intl for color tab.csv].[El Salvador]' />
+              <field name='[Intl for color tab.csv].[Equatorial Guinea]' />
+              <field name='[Intl for color tab.csv].[Eritrea]' />
+              <field name='[Intl for color tab.csv].[Estonia]' />
+              <field name='[Intl for color tab.csv].[Eswatini]' />
+              <field name='[Intl for color tab.csv].[Ethiopia]' />
+              <field name='[Intl for color tab.csv].[Fiji]' />
+              <field name='[Intl for color tab.csv].[Finland]' />
+              <field name='[Intl for color tab.csv].[France]' />
+              <field name='[Intl for color tab.csv].[Gabon]' />
+              <field name='[Intl for color tab.csv].[Gambia]' />
+              <field name='[Intl for color tab.csv].[Georgia]' />
+              <field name='[Intl for color tab.csv].[Germany]' />
+              <field name='[Intl for color tab.csv].[Ghana]' />
+              <field name='[Intl for color tab.csv].[Greece]' />
+              <field name='[Intl for color tab.csv].[Guatemala]' />
+              <field name='[Intl for color tab.csv].[Guinea]' />
+              <field name='[Intl for color tab.csv].[Guyana]' />
+              <field name='[Intl for color tab.csv].[Haiti]' />
+              <field name='[Intl for color tab.csv].[Holy See]' />
+              <field name='[Intl for color tab.csv].[Honduras]' />
+              <field name='[Intl for color tab.csv].[Hungary]' />
+              <field name='[Intl for color tab.csv].[Iceland]' />
+              <field name='[Intl for color tab.csv].[India]' />
+              <field name='[Intl for color tab.csv].[Indonesia]' />
+              <field name='[Intl for color tab.csv].[Iran]' />
+              <field name='[Intl for color tab.csv].[Iraq]' />
+              <field name='[Intl for color tab.csv].[Ireland]' />
+              <field name='[Intl for color tab.csv].[Israel]' />
+              <field name='[Intl for color tab.csv].[Italy]' />
+              <field name='[Intl for color tab.csv].[Jamaica]' />
+              <field name='[Intl for color tab.csv].[Japan]' />
+              <field name='[Intl for color tab.csv].[Jordan]' />
+              <field name='[Intl for color tab.csv].[Kazakhstan]' />
+              <field name='[Intl for color tab.csv].[Kenya]' />
+              <field name='[Intl for color tab.csv].[Kuwait]' />
+              <field name='[Intl for color tab.csv].[Kyrgyzstan]' />
+              <field name='[Intl for color tab.csv].[Latvia]' />
+              <field name='[Intl for color tab.csv].[Lebanon]' />
+              <field name='[Intl for color tab.csv].[Liberia]' />
+              <field name='[Intl for color tab.csv].[Liechtenstein]' />
+              <field name='[Intl for color tab.csv].[Lithuania]' />
+              <field name='[Intl for color tab.csv].[Luxembourg]' />
+              <field name='[Intl for color tab.csv].[Madagascar]' />
+              <field name='[Intl for color tab.csv].[Malaysia]' />
+              <field name='[Intl for color tab.csv].[Maldives]' />
+              <field name='[Intl for color tab.csv].[Malta]' />
+              <field name='[Intl for color tab.csv].[Mauritania]' />
+              <field name='[Intl for color tab.csv].[Mauritius]' />
+              <field name='[Intl for color tab.csv].[Mexico]' />
+              <field name='[Intl for color tab.csv].[Moldova]' />
+              <field name='[Intl for color tab.csv].[Monaco]' />
+              <field name='[Intl for color tab.csv].[Mongolia]' />
+              <field name='[Intl for color tab.csv].[Montenegro]' />
+              <field name='[Intl for color tab.csv].[Morocco]' />
+              <field name='[Intl for color tab.csv].[Namibia]' />
+              <field name='[Intl for color tab.csv].[Nepal]' />
+              <field name='[Intl for color tab.csv].[Netherlands]' />
+              <field name='[Intl for color tab.csv].[New Zealand]' />
+              <field name='[Intl for color tab.csv].[Nicaragua]' />
+              <field name='[Intl for color tab.csv].[Niger]' />
+              <field name='[Intl for color tab.csv].[Nigeria]' />
+              <field name='[Intl for color tab.csv].[North Macedonia]' />
+              <field name='[Intl for color tab.csv].[Norway]' />
+              <field name='[Intl for color tab.csv].[Oman]' />
+              <field name='[Intl for color tab.csv].[Pakistan]' />
+              <field name='[Intl for color tab.csv].[Panama]' />
+              <field name='[Intl for color tab.csv].[Papua New Guinea]' />
+              <field name='[Intl for color tab.csv].[Paraguay]' />
+              <field name='[Intl for color tab.csv].[Peru]' />
+              <field name='[Intl for color tab.csv].[Philippines]' />
+              <field name='[Intl for color tab.csv].[Poland]' />
+              <field name='[Intl for color tab.csv].[Portugal]' />
+              <field name='[Intl for color tab.csv].[Qatar]' />
+              <field name='[Intl for color tab.csv].[Romania]' />
+              <field name='[Intl for color tab.csv].[Russia]' />
+              <field name='[Intl for color tab.csv].[Rwanda]' />
+              <field name='[Intl for color tab.csv].[Saint Lucia]' />
+              <field name='[Intl for color tab.csv].[Saint Vincent and the Grenadines]' />
+              <field name='[Intl for color tab.csv].[San Marino]' />
+              <field name='[Intl for color tab.csv].[Saudi Arabia]' />
+              <field name='[Intl for color tab.csv].[Senegal]' />
+              <field name='[Intl for color tab.csv].[Serbia]' />
+              <field name='[Intl for color tab.csv].[Seychelles]' />
+              <field name='[Intl for color tab.csv].[Singapore]' />
+              <field name='[Intl for color tab.csv].[Slovakia]' />
+              <field name='[Intl for color tab.csv].[Slovenia]' />
+              <field name='[Intl for color tab.csv].[Somalia]' />
+              <field name='[Intl for color tab.csv].[South Africa]' />
+              <field name='[Intl for color tab.csv].[South Korea]' />
+              <field name='[Intl for color tab.csv].[Spain]' />
+              <field name='[Intl for color tab.csv].[Sri Lanka]' />
+              <field name='[Intl for color tab.csv].[Sudan]' />
+              <field name='[Intl for color tab.csv].[Suriname]' />
+              <field name='[Intl for color tab.csv].[Sweden]' />
+              <field name='[Intl for color tab.csv].[Switzerland]' />
+              <field name='[Intl for color tab.csv].[Tanzania]' />
+              <field name='[Intl for color tab.csv].[Thailand]' />
+              <field name='[Intl for color tab.csv].[Timor-Leste]' />
+              <field name='[Intl for color tab.csv].[Togo]' />
+              <field name='[Intl for color tab.csv].[Trinidad and Tobago]' />
+              <field name='[Intl for color tab.csv].[Tunisia]' />
+              <field name='[Intl for color tab.csv].[Turkey]' />
+              <field name='[Intl for color tab.csv].[UAE]' />
+              <field name='[Intl for color tab.csv].[UK]' />
+              <field name='[Intl for color tab.csv].[US]' />
+              <field name='[Intl for color tab.csv].[Uganda]' />
+              <field name='[Intl for color tab.csv].[Ukraine]' />
+              <field name='[Intl for color tab.csv].[Uruguay]' />
+              <field name='[Intl for color tab.csv].[Uzbekistan]' />
+              <field name='[Intl for color tab.csv].[Venezuela]' />
+              <field name='[Intl for color tab.csv].[Vietnam]' />
+              <field name='[Intl for color tab.csv].[Zambia]' />
+              <field name='[Intl for color tab.csv].[Zimbabew]' />
+            </group>
+          </groups>
+          <relation connection='textscan.1ln18qk0hy00vl19uwp3u098sfen' name='Intl for color tab.csv' table='[Intl for color tab#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='F1' ordinal='0' />
+              <column datatype='real' name='China' ordinal='1' />
+              <column datatype='real' name='South Korea' ordinal='2' />
+              <column datatype='real' name='Malaysia' ordinal='3' />
+              <column datatype='real' name='Australia' ordinal='4' />
+              <column datatype='real' name='Japan' ordinal='5' />
+              <column datatype='real' name='Singapore' ordinal='6' />
+              <column datatype='real' name='Philippines' ordinal='7' />
+              <column datatype='real' name='Vietnam' ordinal='8' />
+              <column datatype='real' name='Brunei Darussalam' ordinal='9' />
+              <column datatype='real' name='New Zealand' ordinal='10' />
+              <column datatype='real' name='Cambodia' ordinal='11' />
+              <column datatype='real' name='Mongolia' ordinal='12' />
+              <column datatype='real' name='Fiji' ordinal='13' />
+              <column datatype='real' name='Papua New Guinea' ordinal='14' />
+              <column datatype='real' name='Italy' ordinal='15' />
+              <column datatype='real' name='Spain' ordinal='16' />
+              <column datatype='real' name='Germany' ordinal='17' />
+              <column datatype='real' name='France' ordinal='18' />
+              <column datatype='real' name='Switzerland' ordinal='19' />
+              <column datatype='real' name='UK' ordinal='20' />
+              <column datatype='real' name='Netherlands' ordinal='21' />
+              <column datatype='real' name='Austria' ordinal='22' />
+              <column datatype='real' name='Belgium' ordinal='23' />
+              <column datatype='real' name='Norway' ordinal='24' />
+              <column datatype='real' name='Sweden' ordinal='25' />
+              <column datatype='real' name='Denmark' ordinal='26' />
+              <column datatype='real' name='Portugal' ordinal='27' />
+              <column datatype='real' name='Czechia' ordinal='28' />
+              <column datatype='real' name='Israel' ordinal='29' />
+              <column datatype='real' name='Ireland' ordinal='30' />
+              <column datatype='real' name='Turkey' ordinal='31' />
+              <column datatype='real' name='Greece' ordinal='32' />
+              <column datatype='real' name='Luxembourg' ordinal='33' />
+              <column datatype='real' name='Finland' ordinal='34' />
+              <column datatype='real' name='Poland' ordinal='35' />
+              <column datatype='real' name='Iceland' ordinal='36' />
+              <column datatype='real' name='Slovenia' ordinal='37' />
+              <column datatype='real' name='Romania' ordinal='38' />
+              <column datatype='real' name='Estonia' ordinal='39' />
+              <column datatype='real' name='Russia' ordinal='40' />
+              <column datatype='real' name='San Marino' ordinal='41' />
+              <column datatype='real' name='Slovakia' ordinal='42' />
+              <column datatype='real' name='Armenia' ordinal='43' />
+              <column datatype='real' name='Serbia' ordinal='44' />
+              <column datatype='real' name='Bulgaria' ordinal='45' />
+              <column datatype='real' name='Croatia' ordinal='46' />
+              <column datatype='real' name='Latvia' ordinal='47' />
+              <column datatype='real' name='Hungary' ordinal='48' />
+              <column datatype='real' name='Andorra' ordinal='49' />
+              <column datatype='real' name='Albania' ordinal='50' />
+              <column datatype='real' name='North Macedonia' ordinal='51' />
+              <column datatype='real' name='Lithuania' ordinal='52' />
+              <column datatype='real' name='Cyprus' ordinal='53' />
+              <column datatype='real' name='Moldova' ordinal='54' />
+              <column datatype='real' name='Malta' ordinal='55' />
+              <column datatype='real' name='Belarus' ordinal='56' />
+              <column datatype='real' name='Kazakhstan' ordinal='57' />
+              <column datatype='real' name='Bosnia and Herzegovina' ordinal='58' />
+              <column datatype='real' name='Azerbaijan' ordinal='59' />
+              <column datatype='real' name='Georgia' ordinal='60' />
+              <column datatype='real' name='Liechtenstein' ordinal='61' />
+              <column datatype='real' name='Uzbekistan' ordinal='62' />
+              <column datatype='real' name='Ukraine' ordinal='63' />
+              <column datatype='real' name='Montenegro' ordinal='64' />
+              <column datatype='real' name='Monaco' ordinal='65' />
+              <column datatype='real' name='Kyrgyzstan' ordinal='66' />
+              <column datatype='real' name='Holy See' ordinal='67' />
+              <column datatype='real' name='Indonesia' ordinal='68' />
+              <column datatype='real' name='Thailand' ordinal='69' />
+              <column datatype='real' name='India' ordinal='70' />
+              <column datatype='real' name='Sri Lanka' ordinal='71' />
+              <column datatype='real' name='Bangladesh' ordinal='72' />
+              <column datatype='real' name='Maldives' ordinal='73' />
+              <column datatype='real' name='Nepal' ordinal='74' />
+              <column datatype='real' name='Bhutan' ordinal='75' />
+              <column datatype='real' name='Timor-Leste' ordinal='76' />
+              <column datatype='real' name='Iran' ordinal='77' />
+              <column datatype='real' name='Qatar' ordinal='78' />
+              <column datatype='real' name='Bahrain' ordinal='79' />
+              <column datatype='real' name='Pakistan' ordinal='80' />
+              <column datatype='real' name='Saudi Arabia' ordinal='81' />
+              <column datatype='real' name='Egypt' ordinal='82' />
+              <column datatype='real' name='Iraq' ordinal='83' />
+              <column datatype='real' name='Kuwait' ordinal='84' />
+              <column datatype='real' name='Lebanon' ordinal='85' />
+              <column datatype='real' name='UAE' ordinal='86' />
+              <column datatype='real' name='Morocco' ordinal='87' />
+              <column datatype='real' name='Jordan' ordinal='88' />
+              <column datatype='real' name='Oman' ordinal='89' />
+              <column datatype='real' name='Tunisia' ordinal='90' />
+              <column datatype='real' name='Afghanistan' ordinal='91' />
+              <column datatype='real' name='Sudan' ordinal='92' />
+              <column datatype='real' name='Somalia' ordinal='93' />
+              <column datatype='real' name='Djibouti' ordinal='94' />
+              <column datatype='real' name='South Africa' ordinal='95' />
+              <column datatype='real' name='Algeria' ordinal='96' />
+              <column datatype='real' name='Burkina Faso' ordinal='97' />
+              <column datatype='real' name='Senegal' ordinal='98' />
+              <column datatype='real' name='Cameroon' ordinal='99' />
+              <column datatype='real' name='Ghana' ordinal='100' />
+              <column datatype='real' name='DRC' ordinal='101' />
+              <column datatype='real' name='Nigeria' ordinal='102' />
+              <column datatype='real' name='Mauritius' ordinal='103' />
+              <column datatype='real' name='Rwanda' ordinal='104' />
+              <column datatype='real' name='Cote d&apos;Ivoire' ordinal='105' />
+              <column datatype='real' name='Ethiopia' ordinal='106' />
+              <column datatype='real' name='Togo' ordinal='107' />
+              <column datatype='real' name='Kenya' ordinal='108' />
+              <column datatype='real' name='Seychelles' ordinal='109' />
+              <column datatype='real' name='Tanzania' ordinal='110' />
+              <column datatype='real' name='Equatorial Guinea' ordinal='111' />
+              <column datatype='real' name='Gabon' ordinal='112' />
+              <column datatype='real' name='Congo' ordinal='113' />
+              <column datatype='real' name='Namibia' ordinal='114' />
+              <column datatype='real' name='Zambia' ordinal='115' />
+              <column datatype='real' name='Mauritania' ordinal='116' />
+              <column datatype='real' name='Liberia' ordinal='117' />
+              <column datatype='real' name='Guinea' ordinal='118' />
+              <column datatype='real' name='Benin' ordinal='119' />
+              <column datatype='real' name='Gambia' ordinal='120' />
+              <column datatype='real' name='Central African Republic' ordinal='121' />
+              <column datatype='real' name='Eswatini' ordinal='122' />
+              <column datatype='real' name='Chad' ordinal='123' />
+              <column datatype='real' name='Niger' ordinal='124' />
+              <column datatype='real' name='Cape Verde' ordinal='125' />
+              <column datatype='real' name='Zimbabew' ordinal='126' />
+              <column datatype='real' name='Madagascar' ordinal='127' />
+              <column datatype='real' name='Angola' ordinal='128' />
+              <column datatype='real' name='Eritrea' ordinal='129' />
+              <column datatype='real' name='Uganda' ordinal='130' />
+              <column datatype='real' name='US' ordinal='131' />
+              <column datatype='real' name='Canada' ordinal='132' />
+              <column datatype='real' name='Brazil' ordinal='133' />
+              <column datatype='real' name='Chile' ordinal='134' />
+              <column datatype='real' name='Ecuador' ordinal='135' />
+              <column datatype='real' name='Peru' ordinal='136' />
+              <column datatype='real' name='Mexico' ordinal='137' />
+              <column datatype='real' name='Colombia' ordinal='138' />
+              <column datatype='real' name='Panama' ordinal='139' />
+              <column datatype='real' name='Argentina' ordinal='140' />
+              <column datatype='real' name='Costa Rica' ordinal='141' />
+              <column datatype='real' name='Uruguay' ordinal='142' />
+              <column datatype='real' name='Dominican Republic' ordinal='143' />
+              <column datatype='real' name='Venezuela' ordinal='144' />
+              <column datatype='real' name='Honduras' ordinal='145' />
+              <column datatype='real' name='Jamaica' ordinal='146' />
+              <column datatype='real' name='Bolivia' ordinal='147' />
+              <column datatype='real' name='Cuba' ordinal='148' />
+              <column datatype='real' name='Paraguay' ordinal='149' />
+              <column datatype='real' name='Guatemala' ordinal='150' />
+              <column datatype='real' name='Trinidad and Tobago' ordinal='151' />
+              <column datatype='real' name='Guyana' ordinal='152' />
+              <column datatype='real' name='Barbados' ordinal='153' />
+              <column datatype='real' name='Bahamas' ordinal='154' />
+              <column datatype='real' name='Saint Lucia' ordinal='155' />
+              <column datatype='real' name='Haiti' ordinal='156' />
+              <column datatype='real' name='Suriname' ordinal='157' />
+              <column datatype='real' name='Saint Vincent and the Grenadines' ordinal='158' />
+              <column datatype='real' name='Antigua and Barbuda' ordinal='159' />
+              <column datatype='real' name='El Salvador' ordinal='160' />
+              <column datatype='real' name='Nicaragua' ordinal='161' />
+              <column datatype='string' name='F163' ordinal='162' />
+            </columns>
+          </relation>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Intl for color tab.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Intl for color tab.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F163</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F163]</local-name>
+            <parent-name>[Intl for color tab.csv]</parent-name>
+            <remote-alias>F163</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' hidden='true' name='[F163]' role='dimension' type='nominal' />
+      <column datatype='string' name='[F1]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.0793451' measure-ordering='alphabetic' measure-percentage='0.920655' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <filter class='categorical' column='[F1]' filter-group='2'>
+        <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+          <groupfilter function='level-members' level='[F1]' />
+          <groupfilter function='union'>
+            <groupfilter function='member' level='[F1]' member='&quot;1-20&quot;' />
+            <groupfilter function='member' level='[F1]' member='&quot;1-21&quot;' />
+            <groupfilter function='member' level='[F1]' member='&quot;1-22&quot;' />
+            <groupfilter function='member' level='[F1]' member='&quot;1-23&quot;' />
+            <groupfilter function='member' level='[F1]' member='&quot;1-24&quot;' />
+            <groupfilter function='member' level='[F1]' member='&quot;1-25&quot;' />
+            <groupfilter function='member' level='[F1]' member='&quot;1-26&quot;' />
+            <groupfilter function='member' level='[F1]' member='&quot;1-27&quot;' />
+            <groupfilter function='member' level='[F1]' member='&quot;1-28&quot;' />
+            <groupfilter function='member' level='[F1]' member='&quot;1-29&quot;' />
+            <groupfilter function='member' level='[F1]' member='&quot;1-30&quot;' />
+            <groupfilter function='member' level='[F1]' member='&quot;1-31&quot;' />
+            <groupfilter function='member' level='[F1]' member='&quot;2-1&quot;' />
+            <groupfilter function='member' level='[F1]' member='&quot;2-10&quot;' />
+            <groupfilter function='member' level='[F1]' member='&quot;2-11&quot;' />
+            <groupfilter function='member' level='[F1]' member='&quot;2-12&quot;' />
+            <groupfilter function='member' level='[F1]' member='&quot;2-13&quot;' />
+            <groupfilter function='member' level='[F1]' member='&quot;2-14&quot;' />
+            <groupfilter function='member' level='[F1]' member='&quot;2-2&quot;' />
+            <groupfilter function='member' level='[F1]' member='&quot;2-3&quot;' />
+            <groupfilter function='member' level='[F1]' member='&quot;2-4&quot;' />
+            <groupfilter function='member' level='[F1]' member='&quot;2-5&quot;' />
+            <groupfilter function='member' level='[F1]' member='&quot;2-6&quot;' />
+            <groupfilter function='member' level='[F1]' member='&quot;2-7&quot;' />
+            <groupfilter function='member' level='[F1]' member='&quot;2-8&quot;' />
+            <groupfilter function='member' level='[F1]' member='&quot;2-9&quot;' />
+          </groupfilter>
+        </groupfilter>
+      </filter>
+      <filter class='quantitative' column='[Pivot Field Values]' filter-group='2' included-values='in-range'>
+        <min>1.0</min>
+        <max>7324.0</max>
+      </filter>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Intl for color tab' name='federated.09w83vj1f62lgc1gklcfn10w5ecj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09w83vj1f62lgc1gklcfn10w5ecj'>
+            <column caption='log(SUM([Pivot Field Values])+1)' datatype='real' name='[Calculation_300333832218226688]' role='measure' type='quantitative' user:unnamed='Sheet 1'>
+              <calculation class='tableau' formula='log(SUM([Pivot Field Values])+1)' />
+            </column>
+            <column datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Names]' derivation='None' name='[none:Pivot Field Names:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_300333832218226688]' derivation='User' name='[usr:Calculation_300333832218226688:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.09w83vj1f62lgc1gklcfn10w5ecj].[sum:Pivot Field Values:qk]' field-type='quantitative' range-type='independent' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.09w83vj1f62lgc1gklcfn10w5ecj].[sum:Pivot Field Values:qk]' scope='rows' value='' />
+            <format attr='display' class='0' field='[federated.09w83vj1f62lgc1gklcfn10w5ecj].[sum:Pivot Field Values:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.09w83vj1f62lgc1gklcfn10w5ecj].[none:F1:nk]' value='18' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.09w83vj1f62lgc1gklcfn10w5ecj].[none:Pivot Field Names:nk]' value='200' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-weight' field='[federated.09w83vj1f62lgc1gklcfn10w5ecj].[none:Pivot Field Names:nk]' value='bold' />
+            <format attr='font-family' field='[federated.09w83vj1f62lgc1gklcfn10w5ecj].[none:Pivot Field Names:nk]' value='Verdana' />
+            <format attr='font-size' field='[federated.09w83vj1f62lgc1gklcfn10w5ecj].[none:Pivot Field Names:nk]' value='14' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.09w83vj1f62lgc1gklcfn10w5ecj].[sum:Pivot Field Values:qk]' palette='orange_gold_10_0' type='interpolated' />
+            <encoding attr='color' field='[federated.09w83vj1f62lgc1gklcfn10w5ecj].[usr:Calculation_300333832218226688:qk]' palette='orange_gold_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.09w83vj1f62lgc1gklcfn10w5ecj].[usr:Calculation_300333832218226688:qk]' />
+              <text column='[federated.09w83vj1f62lgc1gklcfn10w5ecj].[sum:Pivot Field Values:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.09w83vj1f62lgc1gklcfn10w5ecj].[none:Pivot Field Names:nk] * [federated.09w83vj1f62lgc1gklcfn10w5ecj].[sum:Pivot Field Values:qk])</rows>
+        <cols>[federated.09w83vj1f62lgc1gklcfn10w5ecj].[none:F1:nk]</cols>
+      </table>
+      <simple-id uuid='{3D328890-B187-43BF-8E03-9CBA67A0C1C0}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.09w83vj1f62lgc1gklcfn10w5ecj].[none:F1:nk]</field>
+            <field>[federated.09w83vj1f62lgc1gklcfn10w5ecj].[none:Pivot Field Names:nk]</field>
+            <field>[federated.09w83vj1f62lgc1gklcfn10w5ecj].[usr:Calculation_300333832218226688:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{933D4EBE-E893-4915-BF79-6E1CF77DAFDA}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      RK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

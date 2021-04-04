@@ -1,0 +1,157 @@
+%\documentclass[twocolumn,journal]{IEEEtran}
+\documentclass[onecolumn,journal]{IEEEtran}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+%\usepackage[english]{babel}
+\usepackage{supertabular}
+\usepackage{longtable}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{bbm}
+%\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{breqn}
+\usepackage{fixltx2e}
+\usepackage{capt-of}
+%\usepackage{mdframed}
+\setcounter{MaxMatrixCols}{10}
+\usepackage{tikz}
+\usetikzlibrary{matrix}
+\usepackage{endnotes}
+\usepackage{soul}
+\usepackage{marginnote}
+%\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+%\newtheorem{remark}{Remark}
+%\newtheorem{error}{\color{Red} Error}
+\newtheorem{corollary}{Corollary}
+\newtheorem{proposition}{Proposition}
+\newtheorem{definition}{Definition}
+\newcommand{\mathsym}[1]{}
+\newcommand{\unicode}[1]{}
+\newcommand{\dsum} {\displaystyle\sum}
+\hyphenation{op-tical net-works semi-conduc-tor}
+\usepackage{pdfpages}
+\usepackage{enumitem}
+\usepackage{multicol}
+
+\headsep = 5pt
+\textheight = 730pt
+%\headsep = 8pt %25pt
+%\textheight = 720pt %674pt
+%\usepackage{geometry}
+
+\bibliographystyle{unsrt}
+
+\usepackage{float}
+
+ \usepackage{xcolor}
+ 
+\usepackage[framemethod=TikZ]{mdframed}
+%%%%%%%FRAME%%%%%%%%%%%
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage{framed}
+    % \BeforeBeginEnvironment{mdframed}{\begin{minipage}{\linewidth}}
+     %\AfterEndEnvironment{mdframed}{\end{minipage}\par}
+
+
+%	%\mdfsetup{%
+%	%skipabove=20pt,
+%	nobreak=true,
+%	   middlelinecolor=black,
+%	   middlelinewidth=1pt,
+%	   backgroundcolor=purple!10,
+%	   roundcorner=1pt}
+
+\mdfsetup{%
+	outerlinewidth=1,skipabove=20pt,backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{result}{Result}
+
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{theorem}{Theorem}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=gray!10, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{remark}{Remark}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=pink!30, outerlinecolor=black,innertopmargin=0pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{quaestio}{Quaestio}
+
+\mdtheorem[nobreak=true,outerlinewidth=1,%leftmargin=40,rightmargin=40,
+backgroundcolor=yellow!50, outerlinecolor=black,innertopmargin=5pt,splittopskip=\topskip,skipbelow=\baselineskip, skipabove=\baselineskip,ntheorem,roundcorner=5pt,font=\itshape]{background}{Background}
+
+%TRYING TO INCLUDE Ppls IN TOC
+\usepackage{hyperref}
+
+
+\begin{document}
+\title{\color{Brown} Excerpts with Translation of \\COVID-19:\\ SARS-ization in China, flu-ization in the US \\ by tuzhuxi on WeChat
+\vspace{-0.35ex}}
+\author{
+ \today 
+  \vspace{-8ex} \\ 
+%\bigskip
+\textbf{}
+ }
+    
+\maketitle
+
+%\vspace{-1ex}
+%\flushbottom % Makes all text pages the same height
+
+%\maketitle % Print the title and abstract box
+
+%\tableofcontents % Print the contents section
+
+\thispagestyle{empty} % Removes page numbering from the first page
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+%\section*{Introduction} % The \section*{} command stops section numbering
+
+%\addcontentsline{toc}{section}{\hspace*{-\tocsep}Introduction} % Adds this section to the table of contents with negative horizontal space equal to the indent for the numbered sections
+
+%\tableofcontents 
+%\section{ Introduction}
+
+%\section*{Overview}
+
+
+\begin{multicols}{2}
+\section*{COVID-19 in China}
+Because of the limited experience of both the government and public about respiratory infectious disease in China, the best known model is SARS and its consequences. The government and media have to roll out a SARS-style response to effectively raise the public's awareness and to accelerate mobilization. Panic ensued, but it also softened resistance to aggressive measures. In addition, similar events in recent history events make the public very intolerant against "downplaying the severity for economy", and the government would try everything to avoid repeating the mistakes in handling SARS. These are some of the historical factors driving the China response. But since the SARS-ization decision was made at a very early stage without a scientific understanding of the disease, if the infection turned out to be very mild, then it would cost China a lot for over-reacting.
+
+\section*{COVID-19 in the US}
+For the US, the frame of reference to understand COVID is the common flu, that's why the government, experts, and media make such comparisons and recommend similar actions. Also, the public is more concerned about the government overplaying the severity to encroach personal freedom and shift the concern over the public harm to benefit, e.g., pharmaceutical companies. But if COVID turned out to be much worse than flu, this mode of thinking will cost US a lot for under-reacting.
+
+\section*{Discussion}
+Historical experience, both the government's in its measures dealing with epidemics and the public's in coping with those measures, are continuing to shape the current response and public response to that response. 
+
+%One concern for the current flu-ization strategy:
+
+%It is partly based on the CFR (case fatality rate) being low compared to SARS (10\%). But the CFR is a result of China's aggressive early detection and intervention, not necessarily an innate property of the virus. 
+
+%For comparison, currently South Korea has 5168 cases including 28 deaths, by the time China had this many cases, 106 already died. The US has 103 cases including 6 death, China has 3 death when hitting the same size of cases. Also, inside Hubei province, the epicenter of COVID-19, the CFR (4.18\%) is 5 times as high as outside Hubei (0.84\%). CFR is evidently a result of response and should not be simply extrapolated as evidence for policy.
+
+
+\end{multicols}
+
+\vspace{2ex}
+
+
+
+
+
+
+
+
+\url{https://mp.weixin.qq.com/s?__biz=MzA3MDIzODIwMg==&mid=2458089170&idx=1&sn=f8b691f33f9c70fa2f58fda3724d5c40&chksm=88483c47bf3fb551b2c87c6d759461d4bdfae42e3b0c6bcbf3dff82d87dc0ed6c44febe3224d&scene=0&xtrack=1&key=d0072ea418f36a6c0c7e6c34c5f3ab984e60e566cdcbb3c48a4ba01bfc70f902ca6a59a3d5a3904248287eead01cfd72a7c77adc5ab0d409a72883e016196d1bf9ca4947745f50f1121d4676b576f9c2&ascene=1&uin=MTAzMTI5MDYyMA%3D%3D&devicetype=Windows+10&version=62080079&lang=en&exportkey=ARpsU16ihaC7OAgW5Qy1T6o%3D&pass_ticket=cvjNnnTF7B3ztKw4IEWUTXRoW3EpMIZRetxjes69w2Ssu8LfJHWrkm6iYff8PtWT}
+
+\end{document}
